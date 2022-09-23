@@ -23,6 +23,15 @@ a {
   font-size: 1.2rem;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: #6070ff;
+}
+
+.contacts:hover {
+  background-color: #6070ff;
+}
+
 h4 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
