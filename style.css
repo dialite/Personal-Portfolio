@@ -54,3 +54,26 @@ p {
   font-weight: 400;
   font-size: 15px;
 }
+
+.socials {
+  display: flex;
+}
+
+h3 {
+  margin-left: 1.5rem;
+  font-style: normal;
+  width: 7rem;
+  font-family: "Poppins", sans-serif;
+  color: #6070ff;
+  font-size: 15px;
+  font-weight: 400;
+  height: 1.5rem;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  width: 10rem;
+}
