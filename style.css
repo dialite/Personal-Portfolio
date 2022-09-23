@@ -31,3 +31,26 @@ h4 {
   align-items: center;
   color: #6070ff;
 }
+
+h1 {
+  display: flex;
+  align-items: center;
+  height: 9.375rem;
+  width: 240px;
+  margin: 3.5rem 1.2rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 52px;
+  font-size: 32px;
+}
+
+p {
+  font-style: normal;
+  width: 327px;
+  margin: 0 1.5rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 15px;
+}
