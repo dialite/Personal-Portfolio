@@ -6,7 +6,6 @@ My Personal Portfolio(Mobile)-Microverse
 This is a my first phase project on my personal portfolio development with microverse created using simple HTML(Hyper text mark-up Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
 ## Built With
-
 - HTML
 - CSS
 - FIGMA
@@ -27,19 +26,6 @@ This is a my first phase project on my personal portfolio development with micro
 
 Here is a link directly to the repository page: https://github.com/dialite/Portfolio-Mobile/tree/Personal-portfolio
 
-### Basic Knowledge in HTML and CSS
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Raymond Olisa
 
 👤 Raymond Olisa
 
@@ -59,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat dop to Figma for the images used
+- Hat-dop to Figma for the images used
