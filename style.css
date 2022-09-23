@@ -1,0 +1,33 @@
+.container {
+  position: absolute;
+  background-image: url("img/mobile-icon.png");
+  background-color: #fff;
+  width: 375px;
+  margin: 0;
+  height: 30rem;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-size: 70vw;
+  margin: 0 0 1.2rem 1.2rem;
+  background-color: #fff;
+  width: 327px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #6070ff;
+}
