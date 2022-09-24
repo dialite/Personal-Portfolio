@@ -325,11 +325,11 @@ h2 {
 }
 
 .lang {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    display: flex;
-    text-align: center;
-    align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 .tools img {
