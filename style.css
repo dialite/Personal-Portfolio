@@ -86,3 +86,122 @@ ul {
   padding-left: 1.5rem;
   width: 10rem;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  width: 375px;
+}
+
+.grid-item {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background-color: #fff;
+  color: #344563;
+  background-repeat: no-repeat;
+  background-position: 16px 16px;
+  border-radius: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 16px;
+  width: 327px;
+  height: 552px;
+}
+
+.grid-item ul {
+  width: 203px;
+  height: 24px;
+  padding-left: 0;
+}
+
+.grid-item p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 12px 16px;
+}
+
+.show-case {
+  background-image: url("img/Snapshoot-Portfolio-a.png");
+  margin-top: 114px;
+}
+
+.content {
+  margin: 248px 16px 25px;
+  height: 95px;
+}
+
+.content h3 {
+  width: 295px;
+  height: 80px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.content ul {
+  list-style-type: disc;
+  justify-content: space-between;
+  width: 236px;
+  padding-left: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.content li {
+  color: #7a869a;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.ocontent li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-left: 16px;
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  padding: 6px 12px;
+  align-items: center;
+}
+
+.ttt {
+  list-style-type: none;
+}
+
+ul .ttt {
+  color: #000;
+}
+
+button {
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  margin-bottom: 28px;
+  margin-left: 16px;
+}
