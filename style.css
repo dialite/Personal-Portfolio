@@ -1,18 +1,19 @@
 .container {
-  position: absolute;
   background-image: url("img/mobile-icon.png");
   background-color: #fff;
   min-width: 375px;
-  margin: 0;
+  margin-bottom: 10px;
   height: 30rem;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 80px;
 }
 
 .frame {
   background-color: #e5e5e5;
   width: 389px;
-}
+  height: 3500px;
 
+}
 
 header {
   display: flex;
@@ -98,8 +99,9 @@ ul {
 }
 
 .grid-container {
+  margin-top: 100px;
+  position: relative;
   display: grid;
-  grid-template-columns: auto;
   width: 375px;
   width: 389px;
 }
@@ -182,7 +184,7 @@ ul {
   line-height: 16px;
 }
 
-.ocontent li {
+.tool-content li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -209,7 +211,7 @@ button {
   width: 124px;
   height: 48px;
   border: 1px solid #6070ff;
-  box-sizing: border-box;
+
   border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
@@ -226,24 +228,31 @@ button:active {
   background-color: #2230d2;
 }
 
-.show-case4 {
+.frame-case-a {
+  background-image: url("img/Snapshoot-Portfolio-a.png");
+  margin-top: 88px;
+}
+
+.frame-case-b {
   background-image: url("img/Snapshoot-Portfolio-b.png");
   margin-top: 88px;
 }
 
-.show-case3 {
+.frame-case-c {
   background-image: url("img/Snapshoot-Portfolio-c.png");
   margin-top: 88px;
 }
 
-.show-case5 {
+.frame-case-d {
   background-image: url("img/Snapshoot-Portfolio-d.png");
   margin-top: 88px;
 }
 
-#about-me {
+.about-me {
+  position: absolute;
+  left: 8px;
   flex-direction: column;
-  width: 375px;
+  width: 395px;
   background: #fff;
   border-top-right-radius: 80px;
   margin-top: 114px;
@@ -270,7 +279,7 @@ h2 {
   margin-top: 114px;
 }
 
-#about-me p {
+.about-me p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -282,11 +291,16 @@ h2 {
   margin: 12px 24px;
 }
 
-#about-me ul {
+.about-me ul {
   width: 9.75rem;
   justify-content: space-between;
   align-items: center;
   padding-left: 1.5rem;
+}
+
+.abt {
+  font-weight: 900;
+  font-style: normal;
 }
 
 .yyy li {
@@ -321,7 +335,7 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
 
   font-family: "Poppins", sans-serif;
