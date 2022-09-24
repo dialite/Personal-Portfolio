@@ -12,7 +12,6 @@
   background-color: #e5e5e5;
   width: 389px;
   height: 3500px;
-
 }
 
 header {
@@ -206,7 +205,6 @@ button {
   width: 124px;
   height: 48px;
   border: 1px solid #6070ff;
-
   border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
@@ -217,7 +215,7 @@ button {
 button:hover {
   text-decoration: underline;
   color: #2230d2;
-  background-color: #D2DAFF;
+  background-color: #d2daff;
 }
 
 button:active {
