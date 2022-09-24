@@ -214,8 +214,7 @@ button {
 
 button:hover {
   text-decoration: underline;
-  color: #2230d2;
-  background-color: #d2daff;
+  background-color: #6070FF;
 }
 
 button:active {
@@ -358,5 +357,5 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 210px;
+  margin-left: 220px;
 }
