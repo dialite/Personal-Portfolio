@@ -57,7 +57,7 @@ h1 {
 p {
   font-style: normal;
   width: 327px;
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 1rem 1.5rem;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
   font-weight: 400;
@@ -68,10 +68,10 @@ p {
   display: flex;
 }
 
-h3 {
+.connect{
   margin-left: 1.5rem;
   font-style: normal;
-  width: 7rem;
+  width: 8rem;
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   font-size: 15px;
