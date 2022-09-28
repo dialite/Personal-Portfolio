@@ -1,11 +1,17 @@
-.super-frame {
-    background-color: #e5e5e5;
+body {
+  margin: 0;
 }
+
+.super-frame {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
 .container {
-  background-image: url("img/mobile-icon.png");
+  background-image: url("img/header-shapesmobile@2x.svg");
   width: 100%;
   margin-bottom: 10px;
-  height: 30rem;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
@@ -26,6 +32,7 @@ header {
   margin: auto;
   background-color: #fff;
   width: 80%;
+  margin-top: 58px;
 }
 
 .identity-box {
@@ -44,10 +51,6 @@ a {
 a:hover {
   text-decoration: underline;
   color: #6070ff;
-}
-
-.contacts:hover {
-  background-color: #6070ff;
 }
 
 .logo {
@@ -74,7 +77,6 @@ h1 {
 
 p {
   font-style: normal;
-  width: 100%;
   margin: 0 1.5rem 1rem 1.5rem;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
@@ -88,6 +90,7 @@ p {
   justify-content: space-between;
   padding-left: 1.5rem;
   width: 10rem;
+  bottom: 60px;
 }
 
 .connect {
@@ -108,7 +111,6 @@ ul {
 }
 
 .work {
-  display: flex;
   justify-content: center;
   margin-top: 10px;
   display: grid;
@@ -225,7 +227,7 @@ button {
 button:hover {
   text-decoration: underline;
   background-color: #6070ab;
-  color: #fff
+  color: #fff;
 }
 
 button:active {
@@ -343,9 +345,8 @@ h2 {
 }
 
 .tools img {
-
   font-size: 50px;
-  margin: 9px 12px
+  margin: 9px 12px;
 }
 
 .titles {
@@ -380,15 +381,16 @@ h2 {
 .contact-container {
   background-color: #fff;
   width: 100%;
+  margin: 0;
 }
 
 .contact-me {
   background-color: #6070ff;
   width: 100%;
-  height: 800px;
+  height: 100%;
   margin: 0;
   border-top-left-radius: 100px;
-  background-image: url("contact form shapes-mobile@2x.svg");
+  background-image: url("img/contact form shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
   display: flex;
@@ -425,7 +427,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .input-setup {
@@ -470,7 +472,7 @@ h2 {
 
 .basement {
   box-sizing: border-box;
-  border: 5px solid #0D151E;
+  border: 5px solid #0d151e;
   width: 134px;
   height: 5px;
   border-radius: 10px;
