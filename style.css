@@ -1,17 +1,21 @@
+.super-frame {
+    background-color: #e5e5e5;
+}
 .container {
   background-image: url("img/mobile-icon.png");
-  background-color: #fff;
-  min-width: 375px;
+  width: 100%;
   margin-bottom: 10px;
   height: 30rem;
+  background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
+  background-color: #fff;
 }
 
 .frame {
-  background-color: #e5e5e5;
-  width: 389px;
-  height: 3500px;
+  width: 100%;
+  height: 3000px;
+  margin: auto;
 }
 
 header {
@@ -19,9 +23,13 @@ header {
   align-items: center;
   justify-content: space-between;
   background-size: 70vw;
-  margin: 1rem 0 1.2rem 1.2rem;
+  margin: auto;
   background-color: #fff;
-  width: 327px;
+  width: 80%;
+}
+
+.identity-box {
+  width: 80%;
 }
 
 .flex {
@@ -66,7 +74,7 @@ h1 {
 
 p {
   font-style: normal;
-  width: 327px;
+  width: 100%;
   margin: 0 1.5rem 1rem 1.5rem;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
@@ -76,6 +84,10 @@ p {
 
 .socials {
   display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  width: 10rem;
 }
 
 .connect {
@@ -92,17 +104,15 @@ p {
 ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
-  padding-left: 1.5rem;
-  width: 10rem;
+  align-items: center;
 }
 
 .work {
-  margin-top: 100px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
   display: grid;
-  width: 375px;
-  width: 389px;
+  width: 100%;
 }
 
 .grid-item {
@@ -185,7 +195,7 @@ ul {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin-left: 16px;
+  margin-left: 18px;
   background-color: #ebebff;
   color: #6070ff;
   border-radius: 8px;
@@ -214,7 +224,8 @@ button {
 
 button:hover {
   text-decoration: underline;
-  background-color: #6070ff;
+  background-color: #6070ab;
+  color: #fff
 }
 
 button:active {
@@ -242,10 +253,10 @@ button:active {
 }
 
 .about-me {
-  position: absolute;
   left: 8px;
   flex-direction: column;
-  width: 395px;
+  justify-content: center;
+  width: 100%;
   background: #fff;
   border-top-right-radius: 80px;
   margin-top: 114px;
@@ -279,7 +290,7 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  width: 327px;
+  width: 80%;
   height: 144px;
   margin: 12px 24px;
 }
@@ -300,7 +311,6 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .tags li {
@@ -316,6 +326,7 @@ h2 {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
+  align-content: flex-start;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -332,8 +343,9 @@ h2 {
 }
 
 .tools img {
-  float: left;
+
   font-size: 50px;
+  margin: 9px 12px
 }
 
 .titles {
@@ -343,7 +355,6 @@ h2 {
   background-size: 70vw;
   margin: 0.5rem 0 0 0;
   background-color: #fff;
-  width: 327px;
 }
 
 .titles img {
@@ -358,4 +369,110 @@ h2 {
   align-items: center;
   justify-content: center;
   margin-left: 220px;
+}
+
+.briefings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+  background-color: #fff;
+  width: 100%;
+}
+
+.contact-me {
+  background-color: #6070ff;
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  border-top-left-radius: 100px;
+  background-image: url("contact form shapes-mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.contact-notice {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-top: 12px;
+  width: 85%;
+}
+
+.contact-form {
+  width: 80%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-setup {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ebebff;
+  padding: 0 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.text-area {
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 100%;
+  line-height: 50px;
+  max-width: 100%;
+}
+
+.contact-button {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  width: 160px;
+  height: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+.basement {
+  box-sizing: border-box;
+  border: 5px solid #0D151E;
+  width: 134px;
+  height: 5px;
+  border-radius: 10px;
+  margin: 20px;
 }
