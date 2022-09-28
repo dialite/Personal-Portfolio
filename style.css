@@ -390,7 +390,7 @@ h2 {
   height: 100%;
   margin: 0;
   border-top-left-radius: 100px;
-  background-image: url("contact form shapes-mobile@2x.svg");
+  background-image: url("img/contact form shapes-mobile.svg");
   background-repeat: no-repeat;
   background-position: right;
   display: flex;
@@ -427,7 +427,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .input-setup {
