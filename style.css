@@ -3,8 +3,8 @@ body {
 }
 
 .super-frame {
-    background-color: #e5e5e5;
-    margin: 0;
+  background-color: #e5e5e5;
+  margin: 0;
 }
 
 .container {
@@ -227,7 +227,7 @@ button {
 button:hover {
   text-decoration: underline;
   background-color: #6070ab;
-  color: #fff
+  color: #fff;
 }
 
 button:active {
@@ -345,9 +345,8 @@ h2 {
 }
 
 .tools img {
-
   font-size: 50px;
-  margin: 9px 12px
+  margin: 9px 12px;
 }
 
 .titles {
@@ -473,7 +472,7 @@ h2 {
 
 .basement {
   box-sizing: border-box;
-  border: 5px solid #0D151E;
+  border: 5px solid #0D151e;
   width: 134px;
   height: 5px;
   border-radius: 10px;
