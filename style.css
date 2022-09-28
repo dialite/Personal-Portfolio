@@ -1,11 +1,16 @@
+body {
+  margin: 0;
+}
+
 .super-frame {
     background-color: #e5e5e5;
+    margin: 0;
 }
 .container {
-  background-image: url("img/mobile-icon.png");
+  background-image: url("header-shapesmobile@2x.svg");
   width: 100%;
   margin-bottom: 10px;
-  height: 30rem;
+  height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
@@ -46,10 +51,6 @@ a:hover {
   color: #6070ff;
 }
 
-.contacts:hover {
-  background-color: #6070ff;
-}
-
 .logo {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
@@ -74,7 +75,6 @@ h1 {
 
 p {
   font-style: normal;
-  width: 100%;
   margin: 0 1.5rem 1rem 1.5rem;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
@@ -88,6 +88,7 @@ p {
   justify-content: space-between;
   padding-left: 1.5rem;
   width: 10rem;
+  bottom: 60px;
 }
 
 .connect {
@@ -380,6 +381,7 @@ h2 {
 .contact-container {
   background-color: #fff;
   width: 100%;
+  margin: 0;
 }
 
 .contact-me {
