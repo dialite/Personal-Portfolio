@@ -20,7 +20,7 @@ body {
 
 .frame {
   width: 100%;
-  height: 3000px;
+  height: 3200px;
   margin: auto;
 }
 
@@ -77,7 +77,17 @@ h1 {
 
 p {
   font-style: normal;
-  margin: 0 1.5rem 1rem 1.5rem;
+  margin: 0 1.5rem 1rem 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 24px;
+}
+
+.desktop-content p {
+  font-style: normal;
+  margin: 0 1.5rem 1rem 0;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
   font-weight: 400;
@@ -131,9 +141,9 @@ ul {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 16px;
+  margin: 120px 16px 0;
   width: 327px;
-  height: 552px;
+  padding: 20px;
 }
 
 .grid-item ul {
@@ -148,17 +158,11 @@ ul {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  margin: 12px 16px;
-}
-
-.content {
-  margin: 248px 16px 25px;
-  height: 95px;
 }
 
 .content h3 {
   width: 295px;
-  height: 80px;
+  height: 40px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -205,6 +209,10 @@ ul {
   align-items: center;
 }
 
+.tool-content li:nth-child(1) {
+  margin-left: 0;
+}
+
 .canopy {
   list-style-type: none;
 }
@@ -220,8 +228,7 @@ button {
   border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
-  margin-bottom: 28px;
-  margin-left: 16px;
+  margin: 15px 0;
 }
 
 button:hover {
@@ -236,22 +243,30 @@ button:active {
 
 .frame-case-a {
   background-image: url("img/Snapshoot-Portfolio-a.png");
-  margin-top: 88px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .frame-case-b {
   background-image: url("img/Snapshoot-Portfolio-b.png");
-  margin-top: 88px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .frame-case-c {
   background-image: url("img/Snapshoot-Portfolio-c.png");
-  margin-top: 88px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .frame-case-d {
   background-image: url("img/Snapshoot-Portfolio-d.png");
-  margin-top: 88px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .about-me {
@@ -302,6 +317,16 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding-left: 1.5rem;
+}
+
+.about-me button {
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  margin: 15px 24px;
 }
 
 .abt {
@@ -478,3 +503,63 @@ h2 {
   border-radius: 10px;
   margin: 20px;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 900px;
+}
+
+  .first-connect {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 0 9.5%;
+}
+
+  h1 {
+    width: 282px;
+    margin-left: 1.2rem;
+}
+
+  p {
+    width: 75%;
+    /* margin-left: 1.5px; */
+}
+
+  .grid-item {
+    width: auto;
+    height: 496px;
+    margin: 142px 100px 0;
+}
+
+  .desktop-content {
+    grid-column: 2;
+    grid-row:  1;
+    padding-left: 45px;
+  
+}
+
+  .desktop-image {
+    background-image: url("img/Nature.svg");
+    grid-column: 1;
+    grid-row: 1;
+
+    height: 448px;
+  }
+
+  .content {
+    margin-top: 48px;
+  }
+
+  .content-frame {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 88px;
+  }
