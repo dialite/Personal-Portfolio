@@ -508,11 +508,7 @@ h2 {
 
 @media (min-width: 768px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+
     height: 900px;
 }
 
@@ -530,27 +526,59 @@ h2 {
 
   p {
     width: 75%;
-    /* margin-left: 1.5px; */
 }
 
   .grid-item {
     width: auto;
     height: 496px;
     margin: 142px 100px 0;
+    padding: 45px 20px 0;
 }
 
+  .column-one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+  .column-two {
+    grid-column: 2;
+    grid-row:  1;
+  }
+
   .desktop-content {
+    padding-left: 45px;
+}
+
+  .desktop-image-1 {
+    background-image: url("img/Nature.svg");
+    height: 448px;
+  }
+
+  .desktop-image-2 {
+    background-image: url("img/Professional-art-printing.svg");
+    height: 448px;
+  }
+
+  .desktop-image-3 {
+    background-image: url("img/Facebook.svg");
+    height: 448px;
+  }
+
+  .desktop-image-4 {
+    background-image: url("img/Uber.svg");
+    height: 448px;
+  }
+
+  .desktop-content-flip {
     grid-column: 2;
     grid-row:  1;
     padding-left: 45px;
-  
 }
 
-  .desktop-image {
+  .desktop-image-flip {
     background-image: url("img/Nature.svg");
     grid-column: 1;
     grid-row: 1;
-
     height: 448px;
   }
 
@@ -561,5 +589,10 @@ h2 {
   .content-frame {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 88px;
+    /* margin-top: 88px; */
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
