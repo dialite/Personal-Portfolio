@@ -10,15 +10,38 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- The navigator row at the top -->
-    <header>
-      <nav>
-        <a href="#" class= "logo">Raymond OLISA</a>
-      </nav>
-      <nav href="#">
-        <img src="img/menu-icon.png" alt = "Menu">
-      </nav>
-    </header>
+
+      <!-- The navigator row at the top -->
+<header>
+  <nav>
+    <a href="#" class= "logo">Raymond</a>
+  </nav>
+  <nav href="#" class=" second-mobile-switch">
+    <img src="img/menu-icon.png" alt = "Menu" class= "summary">
+  </nav>
+  <div class="place hide">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="#portfolio" class="nav-head">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#about" class="nav-head">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact" class="nav-head">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</header>
+
+
+
+
 
 
     <section class="super-frame">
@@ -132,7 +155,7 @@
                 </p>
                 <ul class="flex tool-content">
                   <li>html</li>
-                  <li>Ruby on rails</li>
+                  <li class= "ruby">Ruby on rails</li>
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
@@ -193,7 +216,7 @@
                 </p>
                 <ul class="flex tool-content">
                   <li>html</li>
-                  <li>Ruby on rails</li>
+                  <li class= "ruby">Ruby on rails</li>
                   <li>css</li>
                   <li>javascript</li>
                 </ul>
@@ -253,7 +276,7 @@
                  </p>
                  <ul class="flex tool-content">
                    <li>html</li>
-                   <li>Ruby on rails</li>
+                   <li class= "ruby">Ruby on rails</li>
                    <li>css</li>
                    <li>javascript</li>
                  </ul>
@@ -291,35 +314,36 @@
               </div>
 
               <!-- Subtitles showing languages and framework -->
-              <div class="briefings">
-                <div class= "titles">
-                  <ul>
-                    <li class= "lang"><h3>Languages</h3></li>
-                    <li><img src="icons/Icon-Chevron-Down-Larger.png" alt="#" /></li>
-                  </ul>
-                </div>
-                <div class="tags">
-                  <ul>
-                    <li class= "tools"><img src="icons/JS-Ellipse1.png" alt="#"/>Javascript</li>
-                    <li class= "tools"> <img src="icons/HTML-Ellipse1.png" alt="#"/> HTML</li>
-                    <li class= "tools"> <img src="icons/CSS-Ellipse1.png" alt="#"/> CSS</li>
-                  </ul>
-                </div>
-                <div class= "titles">
+              <article class="briefings">
+                <div class="format">
+                  <div class= "titles">
                     <ul>
-                      <li class= "lang"><h3>Frameworks</h3></li>
-                      <li><img src="icons/Icon-Chevron-Down-Larger.png" alt="#" /></li>
+                      <li class= "lang more"><h3>Languages</h3></li>
                     </ul>
+                  </div>
+                  <div class="tags">
+                    <ul>
+                      <li class= "tools"><img src="icons/JS-Ellipse1.png" alt="#"/>Javascript</li>
+                      <li class= "tools"> <img src="icons/HTML-Ellipse1.png" alt="#"/> HTML</li>
+                      <li class= "tools"> <img src="icons/CSS-Ellipse1.png" alt="#"/> CSS</li>
+                    </ul>
+                  </div>
+                  <div class= "titles">
+                      <ul>
+                        <li class= "lang next"><h3>Frameworks</h3></li>
+                      </ul>
+                  </div>
+                  <div class="skill">
+                    <ul>
+                      <li class= "lang next"><h3>Skills</h3></li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="skill">
-                  <ul>
-                    <li class= "lang"><h3>Skills</h3></li>
-                    <li><img src="icons/Icon-Chevron-Down-Larger.png" alt="#" /></li>
-                  </ul>
-                </div>
-              </div>
 
+
+              </article>
             </div>
+
           </section>
 
 
