@@ -35,6 +35,8 @@ header {
   margin-top: 58px;
 }
 
+
+
 .identity-box {
   width: 80%;
 }
@@ -279,6 +281,10 @@ button:active {
   margin-top: 114px;
 }
 
+.about-into {
+  margin-left: auto;
+}
+
 h2 {
   position: static;
   width: 327px;
@@ -312,11 +318,16 @@ h2 {
   margin: 12px 24px;
 }
 
-.about-me ul {
+.switch {
   width: 9.75rem;
   justify-content: space-between;
   align-items: center;
   padding-left: 1.5rem;
+}
+
+.about-me ul {
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-me button {
@@ -341,10 +352,10 @@ h2 {
 }
 
 .tags li {
+
+  left: 60px;
   width: 303px;
   height: 66.72px;
-  left: 12px;
-  top: 12px;
   background: #f7f7f9;
   border-radius: 8px;
   margin: 8px 0;
@@ -387,14 +398,14 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 275px;
 }
 
 .skill img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 220px;
+  margin-left: 345px;
 }
 
 .briefings {
@@ -421,6 +432,13 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.contact-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact-title {
@@ -504,12 +522,25 @@ h2 {
   margin: 20px;
 }
 
+.second-desktop-switch {
+  display: none;
+}
+
+.third-desktop-switch {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
   .container {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     height: 900px;
+
 }
 
   .first-connect {
@@ -525,7 +556,7 @@ h2 {
 }
 
   p {
-    width: 75%;
+    width: 90%;
 }
 
   .grid-item {
@@ -592,7 +623,88 @@ h2 {
     /* margin-top: 88px; */
   }
 
-  .about {
+  .about-me {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 10px;
+  }
+
+  .briefings {
+    display: flex;
+    align-items: flex-start;
+    grid-column: 2;
+    grid-row: 1;
+    height: 360px;
+    width: 684px;
+    padding: 100px 0;
+  }
+
+  .about-intro {
+    grid-column: 1;
+    grid-row: 1;
+    width: 447px;
+    height: 392px;
+    margin-left: 7rem;
+    margin-right: auto;
+  }
+
+  .tags ul {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 0;
+  }
+
+  .tags li {
+    display: flex;
+    width: 5rem;
+    height: 100px;
+    justify-content: flex-start;
+    margin: 0 12px 0 0;
+    padding: 10px 45px 20px 10px;
+    text-align: left;
+    align-content: flex-start;
+  }
+
+  .contact-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 801px;
+    height: 577px;
+    margin-top: 110px;
+  }
+
+  .contact-me {
+    height: 846px;
+  }
+
+  .contact-form {
+    align-items: center;
+  }
+
+  .contact-notice {
+    margin-top: 0;
+  }
+
+  .basement {
+    display: none;
+  }
+
+  .second-mobile-switch {
+    display: none;
+  }
+
+  .third-mobile-switch {
+    display: none;
+  }
+
+  .grid-item .tool-content {
+    width: auto;
+  }
+
+  .third-button {
+    background-color: #4053fc;
+    color: #fff;
   }
