@@ -358,7 +358,6 @@ h2 {
 }
 
 .tags li {
-
   left: 60px;
   width: 303px;
   height: 66.72px;
@@ -544,17 +543,6 @@ h2 {
   padding: 0 30px;
 }
 
-/* .place {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(96, 112, 255, 0.9);
-  padding-left: 30px;
-  backdrop-filter: blur(5px);
-} */
-
 .close {
   display: inline-block;
   font-family: "Courier New", Courier, monospace;
@@ -567,8 +555,6 @@ h2 {
   font-stretch: ultra-expanded;
   cursor: pointer;
 }
-
-
 
 .modal-window.close {
   display: none;
@@ -605,7 +591,6 @@ h2 {
   width: 25rem;
 }
 
-
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -616,36 +601,35 @@ h2 {
     align-content: center;
     justify-content: center;
     height: 900px;
-
-}
+  }
 
   .first-connect {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     margin: 0 9.5%;
-}
+  }
 
   h1 {
     width: 282px;
     margin-left: 1.2rem;
-}
+  }
 
   p {
     width: 90%;
-}
+  }
 
   .grid-item {
     width: auto;
     height: 496px;
     margin: 142px 100px 0;
     padding: 45px 20px 0;
-}
+  }
 
   .column-one {
     grid-column: 1;
     grid-row: 1;
-}
+  }
 
   .column-two {
     grid-column: 2;
@@ -654,7 +638,7 @@ h2 {
 
   .desktop-content {
     padding-left: 45px;
-}
+  }
 
   .desktop-image-1 {
     background-image: url("img/Nature.svg");
@@ -680,7 +664,7 @@ h2 {
     grid-column: 2;
     grid-row:  1;
     padding-left: 45px;
-}
+  }
 
   .desktop-image-flip {
     background-image: url("img/Nature.svg");
@@ -769,7 +753,7 @@ h2 {
     display: none;
   }
 
-  .second-mobile-switch {
+  .mobile-switch {
     display: none;
   }
 
@@ -782,53 +766,13 @@ h2 {
     color: #fff;
   }
 
-    .navbar {
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    align-items: center;
-    padding: 0 100px;
-    background: #fff;
-  }
-
-
-  .place {
+  .nav-listings {
     display: block;
     position: relative;
     width: fit-content;
     height: auto;
     background-color: #fff;
     padding-left: 0;
-  }
-
-  .hamburger {
-  display: flex;
-  flex-direction: column;
-}
-
-.bar {
-  border: 1px solid #6070ff;
-  width: 25px;
-  margin: 2px;
-  background-color: #6070ff;
-  border-radius: 5px;
-}
-
-  .close,
-  .hamburger {
-    display: none;
-  }
-
-  .nav-menu {
-    display: flex;
-  }
-
-  .nav-menu li {
-    list-style: none;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
   }
 
   .nav-head {
@@ -844,3 +788,4 @@ h2 {
     margin-left: 5px;
     padding: 5px 10px;
   }
+}
