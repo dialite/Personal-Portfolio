@@ -213,10 +213,6 @@ ul {
   align-items: center;
 }
 
-.tags li:nth-child(1) {
-  margin-left: 0;
-}
-
 .canopy {
   list-style-type: none;
 }
@@ -661,7 +657,7 @@ h2 {
 
   .desktop-content-flip {
     grid-column: 2;
-    grid-row:  1;
+    grid-row: 1;
     padding-left: 45px;
   }
 
