@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Personal Portfolio</title>
+    <title>Raymond Olisa Portfolio Project</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
@@ -16,7 +16,7 @@
         <a href="#" class= "logo">Raymond</a>
       </nav>
       <nav href="#" class=" mobile-switch">
-        <img src="img/menu-icon.png" alt= "Menu" class= "summary">
+        <img src="img/menu-icon.png" alt= "menu" class= "summary">
       </nav>
       <div class="nav-listings hide">
         <ul class="nav-menu">
@@ -304,9 +304,9 @@
                   </div>
                   <div class="tags">
                     <ul>
-                      <li class= "tools"><img src="icons/JS-Ellipse1.png" alt="#"/>Javascript</li>
-                      <li class= "tools"> <img src="icons/HTML-Ellipse1.png" alt="#"/> HTML</li>
-                      <li class= "tools"> <img src="icons/CSS-Ellipse1.png" alt="#"/> CSS</li>
+                      <li class= "tools"><img src="icons/JS-Ellipse1.png" alt="js"/>Javascript</li>
+                      <li class= "tools"> <img src="icons/HTML-Ellipse1.png" alt="html"/> HTML</li>
+                      <li class= "tools"> <img src="icons/CSS-Ellipse1.png" alt="css"/> CSS</li>
                     </ul>
                   </div>
                   <div class= "titles">
@@ -333,9 +333,12 @@
                     If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
                   </p>
                   <form class="contact-form" id="form" action="https://formspree.io/f/xyyvwrpj" method="post">
-                    <input type="text" name="name" placeholder="Full name" class="input-setup" maxlength="30" required>
-                    <input type="email" name="email" id="em" placeholder="Email address" class="input-setup" required>
-                    <textarea name="message" placeholder="Write your massage here" class="input-setup text-area" maxlength="500" required></textarea>
+                    <label for="contact-name">Name:</label>
+                    <input type="text" name="name" placeholder="Full name" class="input-setup" maxlength="30" required id="contact-name">
+                    <label for="contact-email">Email:</label>
+                    <input type="email" name="email" id="em" placeholder="Email address" class="input-setup" required id="contact-email">
+                    <label for="contact-text">Message:</label>
+                    <textarea name="message" placeholder="Write your massage here" class="input-setup text-area" maxlength="500" required id="contact-text"></textarea>
                     <button type="submit" class="contact-button">Get In Touch</button>
                   </form>
                   <hr class="basement">
