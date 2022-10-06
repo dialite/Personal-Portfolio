@@ -226,7 +226,7 @@ button {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: #6070ff;
+  color: blue;
   background-color: #fff;
   margin: 15px 0;
 }
@@ -337,7 +337,7 @@ h2 {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: #6070ff;
+  color: blue;
   background-color: #fff;
   margin: 15px 24px;
 }
@@ -511,7 +511,7 @@ label {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: blue;
   width: 160px;
   height: 48px;
   text-align: center;
