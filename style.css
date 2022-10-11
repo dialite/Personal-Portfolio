@@ -73,17 +73,17 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
   color: #6070ff;
 }
 
 .logo {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
+  font-weight: bold;
   display: flex;
   text-align: center;
   align-items: center;
   color: #6070ff;
+  font-size: 25px;
 }
 
 h1 {
@@ -556,6 +556,7 @@ h2 {
   min-height: 50px;
   align-items: center;
   padding: 0 30px;
+  margin-top: 30px;
 }
 
 .close {
@@ -643,6 +644,7 @@ h2 {
 
   .nav-item a {
     color: #344563;
+    font-size: 20px;
   }
 
   .place {
