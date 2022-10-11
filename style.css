@@ -29,6 +29,10 @@ body {
   backdrop-filter: blur(2px);
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav-item a {
   color: #fff;
 }
@@ -66,10 +70,6 @@ body {
 
 .flex {
   display: flex;
-}
-
-a {
-  text-decoration: none;
 }
 
 a:hover {
