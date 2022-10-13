@@ -231,9 +231,9 @@ function createCard(index) {
 }
 
 // Iterate createCard function through the lists of projects
-for (let i = 0; i < projects.length; i++) {
+for (let i = 0; i < projects.length; i += 1) {
   createCard(i);
-  }
+}
 
 const projectBtns = document.querySelectorAll('.content-frame  button');
 
