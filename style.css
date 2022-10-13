@@ -991,6 +991,10 @@ li.ext-item {
     display: none;
   }
 
+  .second-desktop-switch {
+    display: block;
+  }
+
   .grid-item .tool-content {
     width: auto;
   }

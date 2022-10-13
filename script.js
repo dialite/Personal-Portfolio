@@ -30,8 +30,8 @@ const projects = [
     source: 'https://github.com/Bushido-brown/My-Portfolio2',
   },
   {
-    cardClass: ['grid-item'],
-    cardImg: ['content-frame', 'mobile-switch'],
+    cardClass: ['grid-item', 'mobile-switch', ],
+    cardImg: ['content-frame'],
     imgDetails: ['desktop-image-2', 'frame-case-b', 'column-two'],
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
@@ -47,8 +47,8 @@ const projects = [
     source: 'https://github.com/Bushido-brown/My-Portfolio2',
   },
   {
-    cardClass: ['grid-item'],
-    cardImg: ['content-frame', 'second-desktop-switch'],
+    cardClass: ['grid-item', 'second-desktop-switch'],
+    cardImg: ['content-frame'],
     imgDetails: ['desktop-image-2', 'frame-case-b', 'column-two'],
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
@@ -66,8 +66,8 @@ const projects = [
     source: 'https://github.com/Bushido-brown/My-Portfolio2',
   },
   {
-    cardClass: ['grid-item'],
-    cardImg: ['content-frame', 'mobile-switch'],
+    cardClass: ['grid-item', 'mobile-switch'],
+    cardImg: ['content-frame'],
     imgDetails: ['desktop-image-3', 'frame-case-c', 'column-one'],
     articleClassList: ['desktop-content', 'column-two'],
     h2TitleClass: ['content'],
@@ -84,8 +84,8 @@ const projects = [
     source: 'https://github.com/Bushido-brown/My-Portfolio2',
   },
   {
-    cardClass: ['grid-item'],
-    cardImg: ['content-frame', 'second-desktop-switch'],
+    cardClass: ['grid-item', 'second-desktop-switch'],
+    cardImg: ['content-frame'],
     imgDetails: ['desktop-image-3', 'frame-case-c', 'column-one'],
     articleClassList: ['desktop-content', 'column-two'],
     h2TitleClass: ['content'],
@@ -103,8 +103,8 @@ const projects = [
     source: 'https://github.com/Bushido-brown/My-Portfolio2',
   },
   {
-    cardClass: ['grid-item'],
-    cardImg: ['content-frame', 'mobile-switch'],
+    cardClass: ['grid-item', 'mobile-switch'],
+    cardImg: ['content-frame'],
     imgDetails: ['desktop-image-4', 'frame-case-d', 'column-two'],
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
@@ -121,8 +121,8 @@ const projects = [
     source: 'https://github.com/Bushido-brown/My-Portfolio2',
   },
   {
-    cardClass: ['grid-item'],
-    cardImg: ['content-frame', 'second-desktop-switch'],
+    cardClass: ['grid-item', 'second-desktop-switch'],
+    cardImg: ['content-frame'],
     imgDetails: ['desktop-image-4', 'frame-case-d', 'column-two'],
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
@@ -193,7 +193,7 @@ function createCard(projects, index) {
   // cardImg.appendChild(imgTag);
 
   const imgTag = createTag('div');
-  imgTag.classList.add([projects[index].imgDetails[0], projects[index].imgDetails[1]]);
+  imgTag.classList.add(...projects[index].imgDetails);
   cardImg.appendChild(imgTag);
 
   //  create the article
