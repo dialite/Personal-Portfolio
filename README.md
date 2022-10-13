@@ -10,7 +10,7 @@ This is a my first phase project on my personal portfolio development with micro
 - CSS
 - FIGMA
 - GIT AND GITHUB
-- JAVASCRIPT DOM
+- JAVASCRIPT (DOM AND EVENT LISTENERS)
 
 
 ## Getting Started
@@ -18,15 +18,15 @@ This is a my first phase project on my personal portfolio development with micro
 **Instructions on how to view and clone my project locally.**
  To Access my project locally please follow the following instructions;
 1. Create a folder on your computer where you will clone the project
-2. Enter this url: https://github.com/dialite/Portfolio-Mobile/pull/10 in your web browser.
+2. Enter this url: https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up in your web browser.
 3. Once opened, move your cursor to the top left of the project page to select 'code' a green code button will be visible on the righthand corner showing download    options.
 5. Select download Zip option from drop down menu to your desired folder on your computer.
 6. Once the download is complete you will be able to access my project locally.
 7. Also, you can navigate to your folder using a console.
-8. Then run git clone https://github.com/dialite/Portfolio-Mobile/pull/10
+8. Then run git clone https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up
 
 
-Here is a link directly to the repository page: https://github.com/dialite/Portfolio-Mobile/pull/10
+Here is a link directly to the repository page: https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up
 
 
 👤 Raymond Olisa
