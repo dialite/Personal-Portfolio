@@ -19,15 +19,14 @@ const projects = [
     articleClassList: ['desktop-content', 'column-two'],
     h2TitleClass: ['content'],
     name: 'Tonic',
-    canopyClass: ['canopy', 'flex'],
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     p: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'img/Nature.svg',
     liFormat: ['flex', 'tool-content'],
     technologies: ['html', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
     cardClass: ['grid-item', 'mobile-switch', ],
@@ -36,15 +35,14 @@ const projects = [
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
     name: 'Multi-Post Stories',
-    canopyClass: ['canopy', 'flex'],
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     p: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'img/Professional-art-printing.svg',
     liFormat: ['flex', 'tool-content'],
     technologies: ['html', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
     cardClass: ['grid-item', 'second-desktop-switch'],
@@ -53,8 +51,6 @@ const projects = [
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
     name: 'Multi-Post Stories',
-    flexClass: ['flex'],
-    canopyClass: ['canopy'],
     tagline: ['FACEBOOK', 'Full Stack Dev', '2015'],
     p: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -62,8 +58,8 @@ const projects = [
     liFormat: ['flex', 'tool-content'],
     rubyClass: ['ruby'],
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
     cardClass: ['grid-item', 'mobile-switch'],
@@ -72,16 +68,14 @@ const projects = [
     articleClassList: ['desktop-content', 'column-two'],
     h2TitleClass: ['content'],
     name: 'Tonic',
-    flexClass: ['flex'],
-    canopyClass: ['canopy'],
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     p: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'img/Facebook.svg',
     liFormat: ['flex', 'tool-content'],
     technologies: ['html', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
     cardClass: ['grid-item', 'second-desktop-switch'],
@@ -90,8 +84,6 @@ const projects = [
     articleClassList: ['desktop-content', 'column-two'],
     h2TitleClass: ['content'],
     name: 'Facebook 360',
-    flexClass: ['flex'],
-    canopyClass: ['canopy'],
     tagline: ['FACEBOOK', 'Full Stack Dev', '2015'],
     p: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -99,8 +91,8 @@ const projects = [
     liFormat: ['flex', 'tool-content'],
     rubyClass: ['ruby'],
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
     cardClass: ['grid-item', 'mobile-switch'],
@@ -109,16 +101,14 @@ const projects = [
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
     name: 'Multi-Post Stories',
-    flexClass: ['flex'],
-    canopyClass: ['canopy'],
     tagline: ['CANOPY', 'Back EndDev', '2015'],
     p: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'img/Facebook.svg',
     liFormat: ['flex', 'tool-content'],
     technologies: ['html', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
     cardClass: ['grid-item', 'second-desktop-switch'],
@@ -127,8 +117,6 @@ const projects = [
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
     name: 'Uber Navigation',
-    flexClass: ['flex'],
-    canopyClass: ['canopy'],
     tagline: ['Uber', 'Lead Developer', '2018'],
     p: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -136,8 +124,8 @@ const projects = [
     liFormat: ['flex', 'tool-content'],
     rubyClass: ['ruby'],
     technologies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    live: 'https://bushido-brown.github.io/My-Portfolio2/',
-    source: 'https://github.com/Bushido-brown/My-Portfolio2',
+    live: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
+    source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
 ];
 
@@ -189,9 +177,6 @@ function createCard(projects, index) {
   card.appendChild(cardImg);
 
   // create the project image tag
-  // const imgTag = createImgTag([projects[index].imgDetails[0], projects[index].imgDetails[1]]);
-  // cardImg.appendChild(imgTag);
-
   const imgTag = createTag('div');
   imgTag.classList.add(...projects[index].imgDetails);
   cardImg.appendChild(imgTag);
@@ -211,21 +196,22 @@ function createCard(projects, index) {
   h3Content.textContent = projects[index].name;
   h3Title.appendChild(h3Content);
 
-  const canop = createTag('div');
-  canop.classList.add(...projects[index].canopyClass);
+  const canop = createTag('ul');
+  canop.classList.add('flex');
   h3Title.appendChild(canop);
 
   //  create options link;
-  const link1 = createLink('CANOPY', '#');
-  link1.classList.add(...projects[index].canopyClass);
+  const link1 = createTag('li');
+  link1.classList.add('canopy');
+  link1.textContent = "CANOPY";
   canop.appendChild(link1);
 
-  const link2 = createLink('Back End Dev', '#');
-  link2.classList.add('history', 'font');
+  const link2 = createTag('li');
+  link2.textContent = "Back End Dev";
   canop.appendChild(link2);
 
-  const link3 = createLink('2015', '#');
-  link3.classList.add('history', 'font');
+  const link3 = createTag('li');
+  link3.textContent = "2015";
   canop.appendChild(link3);
 
   //  create paragraph and append to article
@@ -234,21 +220,21 @@ function createCard(projects, index) {
   article.appendChild(p);
 
   //  create languge div ul
-  const langDiv = createTag('div');
+  const langDiv = createTag('ul');
   langDiv.classList.add(...projects[index].liFormat);
   article.appendChild(langDiv);
 
   //  create languge div links
-  const link4 = createLink('html', '#');
-  link4.classList.add('font');
+  const link4 = createTag('li');
+  link4.textContent = "html";
   langDiv.appendChild(link4);
 
-  const link5 = createLink('css', '#');
-  link5.classList.add('font');
+  const link5 = createTag('li');
+  link5.textContent = "css";
   langDiv.appendChild(link5);
 
-  const link6 = createLink('javascript', '#');
-  link6.classList.add('font');
+  const link6 = createTag('li');
+  link6.textContent = "javascript";
   langDiv.appendChild(link6);
 
   //  create a button

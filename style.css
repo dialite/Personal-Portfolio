@@ -603,22 +603,6 @@ h2 {
   width: 25rem;
 }
 
-.pop-bg {
-  position: fixed;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(152, 154, 158, 0.875);
-  pointer-events: none;
-}
-
-.pop-bg:active {
-  opacity: 1;
-  pointer-events: none;
-}
-
 /* modal */
 .modal-window {
   z-index: 5;
@@ -737,6 +721,7 @@ button.modal-button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 5%;
 }
 
 .tech-item a {
@@ -756,6 +741,7 @@ button.modal-button {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 20px;
+  padding-left: 0;
 }
 
 li.ext-item {
@@ -773,18 +759,38 @@ li.ext-item {
 }
 
 .live a {
-  background-image: url("../img/go-live.svg");
+  background-image: url("img/go-live.svg");
   margin-right: 10px;
 }
 
 .source a {
-  background-image: url("../img/github.svg");
+  background-image: url("img/github.svg");
 }
 
 .source a,
 .live a {
   background-repeat: no-repeat;
   background-position: top 50% left 90%;
+}
+
+.pop-bg {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(152, 154, 158, 0.875);
+  pointer-events: none;
+}
+
+.pop-bg:active {
+  opacity: 1;
+  pointer-events: none;
+}
+
+.blur-effect {
+  filter: blur(6px);
 }
 
 /* MEDIA QUERIES */
@@ -1027,7 +1033,76 @@ li.ext-item {
     padding: 5px 10px;
   }
 
+
+
   .pop-bg {
     background-color: rgb(193, 199, 208, 0.5);
+  }
+
+  /* modal window large screen */
+  .modal-window {
+    max-width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+
+  .technologies {
+    border-bottom: none;
+  }
+
+  .modal-img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .blue-bg {
+    background-color: rgb(193, 199, 208, 0.5);
+  }
+
+  .blur-effect {
+    filter: blur(4px);
+  }
+
+  .lower-content {
+    min-height: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description {
+    width: 60%;
+  }
+
+  .modal-aside {
+    width: 40%;
+  }
+
+  .ext-item a {
+    display: inline-block;
+    text-decoration: none;
+    outline: 1px solid blue;
+    padding: 5px 50px 5px 25px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    color: #6070ff;
+    font-size: 12px;
+  }
+
+  .live a {
+    margin-right: 2px;
+  }
+
+  .tech-item a {
+    display: inline-block;
+    padding: 3px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .still {
+    overflow-y: hidden;
   }
 }
