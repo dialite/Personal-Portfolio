@@ -1,16 +1,16 @@
-//Navbar Selector
+//  Navbar Selector
 const close = document.querySelector('.close');
 const nav = document.querySelector('.place');
 const navLinks = document.querySelectorAll('.nav-link');
 const hamburger = document.querySelector('.hamburger');
 
-//Work details Selector
-const caravan = document.querySelector(".super-frame");
-const docBody = document.querySelector("body");
-const overlay = document.querySelector(".pop-bg");
-const cards = document.querySelector(".work");
+//  Work details Selector
+const caravan = document.querySelector('.super-frame');
+const docBody = document.querySelector('body');
+const overlay = document.querySelector('.pop-bg');
+const cards = document.querySelector('.work');
 
-//Work projects
+//  Work projects
 const projects = [
   {
     cardClass: ['grid-item'],
@@ -29,7 +29,7 @@ const projects = [
     source: 'https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up',
   },
   {
-    cardClass: ['grid-item', 'mobile-switch', ],
+    cardClass: ['grid-item', 'mobile-switch'],
     cardImg: ['content-frame'],
     imgDetails: ['desktop-image-2', 'frame-case-b', 'column-two'],
     articleClassList: ['desktop-content', 'column-one'],
@@ -118,7 +118,7 @@ const projects = [
     h2TitleClass: ['content'],
     name: 'Uber Navigation',
     tagline: ['Uber', 'Lead Developer', '2018'],
-    p: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    p: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
     featuredImage: 'img/Facebook.svg',
     liFormat: ['flex', 'tool-content'],
@@ -129,13 +129,13 @@ const projects = [
   },
 ];
 
-//Creates tag names without attributes
+//  Creates tag names without attributes
 function createTag(tagname) {
   const elem = document.createElement(tagname);
   return elem;
 }
 
-//Creates tag names with attributes and text
+//  Creates tag names with attributes and text
 function createTagWithAttribute(tagName, [attribute, value, text]) {
   const tag = document.createElement(tagName);
   tag.setAttribute(attribute, value);
@@ -143,27 +143,11 @@ function createTagWithAttribute(tagName, [attribute, value, text]) {
   return tag;
 }
 
-//Creates tag names with only attributes
+//  Creates tag names with only attributes
 function createTagWithAttributeOnly(tagName, [attribute, value]) {
   const tag = document.createElement(tagName);
   tag.setAttribute(attribute, value);
   return tag;
-}
-
-//  create an image tag with src & alt values
-function createImgTag([srcValue, altvalue]) {
-  const imgTag = document.createElement('img');
-  imgTag.setAttribute('src', srcValue);
-  imgTag.setAttribute('alt', altvalue);
-  return imgTag;
-}
-
-//Create links with href
-function createLink(linkText, href) {
-  const a = document.createElement('a');
-  a.textContent = linkText;
-  a.setAttribute('href', href);
-  return a;
 }
 
 function createCard(projects, index) {
@@ -203,15 +187,15 @@ function createCard(projects, index) {
   //  create options link;
   const link1 = createTag('li');
   link1.classList.add('canopy');
-  link1.textContent = "CANOPY";
+  link1.textContent = 'CANOPY';
   canop.appendChild(link1);
 
   const link2 = createTag('li');
-  link2.textContent = "Back End Dev";
+  link2.textContent = 'Back End Dev';
   canop.appendChild(link2);
 
   const link3 = createTag('li');
-  link3.textContent = "2015";
+  link3.textContent = '2015';
   canop.appendChild(link3);
 
   //  create paragraph and append to article
@@ -226,15 +210,15 @@ function createCard(projects, index) {
 
   //  create languge div links
   const link4 = createTag('li');
-  link4.textContent = "html";
+  link4.textContent = 'html';
   langDiv.appendChild(link4);
 
   const link5 = createTag('li');
-  link5.textContent = "css";
+  link5.textContent = 'css';
   langDiv.appendChild(link5);
 
   const link6 = createTag('li');
-  link6.textContent = "javascript";
+  link6.textContent = 'javascript';
   langDiv.appendChild(link6);
 
   //  create a button
@@ -270,7 +254,6 @@ modalBtn.type = 'button';
 modalBtn.innerHTML = '&times;';
 const modalBody = createTag('div');
 modalBody.classList.add('modal-body');
-
 
 close.addEventListener('click', () => {
   nav.classList.add('hide');
