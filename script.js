@@ -50,7 +50,7 @@ const projects = [
     imgDetails: ['desktop-image-2', 'frame-case-b', 'column-two'],
     articleClassList: ['desktop-content', 'column-one'],
     h2TitleClass: ['content'],
-    name: 'Multi-Post Stories',
+    name: ['Multi-Post-Stories'],
     tagline: ['FACEBOOK', 'Full Stack Dev', '2015'],
     p: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..',
@@ -150,7 +150,7 @@ function createTagWithAttributeOnly(tagName, [attribute, value]) {
   return tag;
 }
 
-function createCard(projects, index) {
+function createCard(index) {
   //  create outer div for a card '.grid-item'
   const card = createTag('div');
   card.classList.add(...projects[index].cardClass);
@@ -230,13 +230,10 @@ function createCard(projects, index) {
   cards.appendChild(card);
 }
 
-createCard(projects, 0);
-createCard(projects, 1);
-createCard(projects, 2);
-createCard(projects, 3);
-createCard(projects, 4);
-createCard(projects, 5);
-createCard(projects, 6);
+// Iterate createCard function through the lists of projects
+for (let i = 0; i < projects.length; i++) {
+  createCard(i);
+  }
 
 const projectBtns = document.querySelectorAll('.content-frame  button');
 
@@ -289,9 +286,9 @@ Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('cli
   li2.classList.add('bg-dot');
   const li3 = createTag('li');
   li3.classList.add('bg-dot');
-  li1.appendChild(createTagWithAttribute('a', ['href', '#', project.tagline[0]]));
-  li2.appendChild(createTagWithAttribute('a', ['href', '#', project.tagline[1]]));
-  li3.appendChild(createTagWithAttribute('a', ['href', '#', project.tagline[2]]));
+  li1.appendChild(createTagWithAttribute('a', ['src', '#', project.tagline[0]]));
+  li2.appendChild(createTagWithAttribute('a', ['scr', '#', project.tagline[1]]));
+  li3.appendChild(createTagWithAttribute('a', ['src', '#', project.tagline[2]]));
   ul.appendChild(li1);
   ul.appendChild(li2);
   ul.appendChild(li3);
@@ -325,9 +322,9 @@ Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('cli
   li5.classList.add('tech-item');
   const li6 = createTag('li');
   li6.classList.add('tech-item');
-  li4.appendChild(createTagWithAttribute('a', ['href', '#', project.technologies[0]]));
-  li5.appendChild(createTagWithAttribute('a', ['href', '#', project.technologies[1]]));
-  li6.appendChild(createTagWithAttribute('a', ['href', '#', project.technologies[2]]));
+  li4.appendChild(createTagWithAttribute('a', ['src', '#', project.technologies[0]]));
+  li5.appendChild(createTagWithAttribute('a', ['src', '#', project.technologies[1]]));
+  li6.appendChild(createTagWithAttribute('a', ['src', '#', project.technologies[2]]));
   ul2.appendChild(li4);
   ul2.appendChild(li5);
   ul2.appendChild(li6);

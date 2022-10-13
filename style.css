@@ -89,7 +89,6 @@ a:hover {
 h1 {
   display: flex;
   align-items: center;
-  height: 9.375rem;
   width: 240px;
   margin: 3.5rem 1.2rem 1rem;
   font-family: "Poppins", sans-serif;
@@ -607,7 +606,7 @@ h2 {
 .modal-window {
   z-index: 5;
   position: fixed;
-  top: 10%;
+  top: 2%;
   left: 5%;
   width: 90%;
   margin: 0 auto;
@@ -618,7 +617,7 @@ h2 {
   flex-wrap: nowrap;
   box-sizing: border-box;
   padding: 10px;
-  max-height: 554px;
+  height: 95%;
   overflow-y: scroll;
 }
 
@@ -663,6 +662,8 @@ button.modal-button {
 .tagline ul {
   display: flex;
   flex-direction: row;
+  padding-left: 12px;
+  margin: 2px;
 }
 
 .tech-list li {
@@ -682,7 +683,7 @@ button.modal-button {
 .bg-dot {
   padding-left: 20px;
   padding-right: 5px;
-  background-image: url("../img/Counter.svg");
+  background-image: url("img/Counter.svg");
   background-repeat: no-repeat;
   background-position: top 50% left 5%;
   font-family: "Poppins", sans-serif;
@@ -708,6 +709,9 @@ button.modal-button {
   font-style: normal;
   font-weight: inherit;
   margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .technologies {
@@ -742,6 +746,7 @@ button.modal-button {
   justify-content: space-around;
   margin-bottom: 20px;
   padding-left: 0;
+  width: 18rem;;
 }
 
 li.ext-item {
@@ -1076,6 +1081,7 @@ li.ext-item {
 
   .modal-aside {
     width: 40%;
+    margin-right: 50px;
   }
 
   .ext-item a {
