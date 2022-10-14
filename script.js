@@ -264,6 +264,19 @@ Array.from(navLinks).forEach((navlink) => navlink.addEventListener('click', () =
   nav.classList.add('hide');
 }));
 
+//  FORM SUBMISSION VALIDATION
+const formContainer = document.getElementById('form');
+formContainer.addEventListener('submit', (event) => {
+  const mailInput = document.getElementById('email');
+  const messageError = document.querySelector('.error-message');
+  if (mailInput.value === mailInput.value.toLowerCase()) {
+    messageError.textContent = '';
+  } else {
+    event.preventDefault();
+    messageError.innerHTML = '*email must be in lower case <br> * form not sent';
+  }
+});
+
 Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('click', (e) => {
   const project = projects[+(e.target.name)];
   modalWindow.appendChild(modalHeader);
