@@ -539,7 +539,7 @@ label {
 .error-message {
   position: relative;
   right: 35%;
-  color: red !important;
+  color: red;
   margin-top: 0.2rem;
   font-size: 14px;
   text-transform: uppercase;
