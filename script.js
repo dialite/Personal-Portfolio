@@ -277,6 +277,39 @@ formContainer.addEventListener('submit', (event) => {
   }
 });
 
+
+//  Create input variables
+const userName = document.getElementById('name');
+const userEmail = document.getElementById('email');
+const userMessage = document.getElementById('message');
+
+// Object to store user data
+const userData = {
+  nameInput: userName,
+  emailInput: userEmail,
+  messageInput: userMessage,
+};
+
+// Store data using localStorage
+function storeData() {
+  userData.nameInput = userName.value;
+  userData.emailInput = userEmail.value;
+  userData.messageInput = userMessage.value;
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+// call storeData at every event
+userName.addEventListener('keyup', storeData);
+userEmail.addEventListener('keyup', storeData);
+userMessage.addEventListener('keyup', storeData);
+
+// Check for info in local-storage
+const savedUserData = localStorage.getItem('userData');
+document.getElementById('name').value = JSON.parse(savedUserData).nameInput;
+document.getElementById('email').value = JSON.parse(savedUserData).emailInput;
+document.getElementById('message').value = JSON.parse(savedUserData).messageInput;
+
+
+
 Array.from(projectBtns).forEach((projectBtn) => projectBtn.addEventListener('click', (e) => {
   const project = projects[+(e.target.name)];
   modalWindow.appendChild(modalHeader);
