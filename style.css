@@ -15,7 +15,7 @@ body {
   background-image: url("img/header-shapesmobile@2x.svg");
   width: 100%;
   margin-bottom: 10px;
-  height: 70vh;
+  height: 83vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
@@ -851,7 +851,7 @@ li.ext-item {
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 900px;
+    height: 92vh;
   }
 
   .first-connect {
