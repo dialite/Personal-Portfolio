@@ -929,14 +929,14 @@ li.ext-item {
     border-radius: 1.5rem;
   }
 
-  /* .place {
+  .place {
     display: block;
     position: relative;
     width: fit-content;
     height: auto;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding-left: 0;
-  } */
+  }
 
   h1 {
     width: 282px;
