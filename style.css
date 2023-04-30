@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background-color: #040e26;
-  font-family: "Satoshi 400";
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
@@ -31,6 +30,7 @@ body {
   height: 100vh;
   padding-left: 30px;
   backdrop-filter: blur(4px);
+  background-color: #040e26;
 }
 
 a {
@@ -605,20 +605,46 @@ label {
   display: none;
 }
 
+.next {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.next h3 {
+  margin-right: 1rem;
+}
+
 .more {
+  background-image: url("icons/Icon-Chevron-Right-Larger.png");
+  height: 1.5rem;
+  width: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.hide .more {
+  transform: rotate(90deg);
   background-image: url("icons/Icon-Chevron-Down-Larger.png");
 }
 
-.next {
-  background-image: url("icons/Icon-Chevron-Right-Larger.png");
-  border-bottom: 1px solid #dfe1e6;
+.tools,
+.frameworks,
+.skills {
+  list-style: none;
+  margin-left: 2rem;
 }
 
-.more,
-.next {
-  background-repeat: no-repeat;
-  background-position: right;
-  width: 25rem;
+.tools li,
+.frameworks li,
+.skills li {
+  margin-bottom: 0.5rem;
+}
+
+.tools li img,
+.frameworks li img,
+.skills li img {
+  margin-right: 1rem;
 }
 
 /* modal */
@@ -903,14 +929,14 @@ li.ext-item {
     border-radius: 1.5rem;
   }
 
-  .place {
+  /* .place {
     display: block;
     position: relative;
     width: fit-content;
     height: auto;
-    /* background-color: #fff; */
+    background-color: #fff;
     padding-left: 0;
-  }
+  } */
 
   h1 {
     width: 282px;

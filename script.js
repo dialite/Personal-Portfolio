@@ -446,3 +446,15 @@ modalBtn.addEventListener("click", () => {
   innerModalHeader.innerHTML = "";
   modalBody.innerHTML = "";
 });
+
+// Languages, framework and skils dropdown
+const nextElements = document.querySelectorAll(".next");
+
+nextElements.forEach((nextElement) => {
+  const moreElement = nextElement.querySelector(".more");
+  const content = nextElement.nextElementSibling;
+  nextElement.addEventListener("click", () => {
+    content.classList.toggle("hide");
+    moreElement.classList.toggle("more-rotate");
+  });
+});
