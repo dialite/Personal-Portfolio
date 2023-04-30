@@ -5,6 +5,7 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: rgb(204, 213, 243);
+  /* padding-top: 120px; */
 }
 
 .super-frame {
@@ -855,7 +856,7 @@ li.ext-item {
     align-items: center;
     align-content: center;
     justify-content: center;
-    height: 92vh;
+    height: 100vh;
   }
 
   .first-connect {
@@ -878,10 +879,16 @@ li.ext-item {
   }
 
   .navbar {
+    position: fixed;
+    width: 90%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
     padding: 0 100px;
+    z-index: 1000;
+    background-color: #040e26;
   }
 
   .nav-item a {
@@ -1082,7 +1089,7 @@ li.ext-item {
     flex-direction: column;
     width: 801px;
     height: 577px;
-    margin-top: 110px;
+    margin-top: 8rem;
   }
 
   .contact-me {
