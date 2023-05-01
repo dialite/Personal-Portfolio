@@ -702,6 +702,7 @@ button.modal-button {
   margin: 0;
   padding: 0;
   padding: 0 10px;
+  color: rgb(204, 213, 243);
 }
 
 .tagline {
@@ -727,7 +728,7 @@ button.modal-button {
 .tagline a {
   display: inline-block;
   text-decoration: none;
-  color: #313438;
+  color: rgb(204, 213, 243);
 }
 
 .bg-dot {
@@ -748,7 +749,8 @@ button.modal-button {
 }
 
 .modal-img img {
-  width: 100%;
+  width: 65.5rem;
+  height: 25rem;
 }
 
 .description {
@@ -1154,12 +1156,14 @@ li.ext-item {
 
   /* modal window large screen */
   .modal-window {
-    max-width: 80%;
+    max-width: 90%;
     position: fixed;
-    top: 50%;
+    top: 62%;
     left: 50%;
+    height: 100vh;
     transform: translate(-50%, -50%);
-    border-radius: 5px;
+    border-radius: 7px;
+    background-color: #111f42;
   }
 
   .technologies {
@@ -1214,6 +1218,7 @@ li.ext-item {
     padding: 3px 2px;
     border-radius: 5px;
     text-decoration: none;
+    background-color: #040e26;
   }
 
   .still {
