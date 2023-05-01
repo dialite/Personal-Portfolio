@@ -14,7 +14,7 @@ const cards = document.querySelector(".work");
 //  Work projects
 const projects = [
   {
-    cardClass: ["grid-item"],
+    cardClass: ["grid-item", "anime"],
     cardImg: ["content-frame"],
     imgDetails: ["desktop-image-1", "frame-case-a", "column-one"],
     articleClassList: ["desktop-content", "column-two"],
@@ -48,7 +48,7 @@ const projects = [
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
-    cardClass: ["grid-item", "second-desktop-switch"],
+    cardClass: ["grid-item", "second-desktop-switch", "anime"],
     cardImg: ["content-frame"],
     imgDetails: ["desktop-image-2", "frame-case-b", "column-two"],
     articleClassList: ["desktop-content", "column-one"],
@@ -83,7 +83,7 @@ const projects = [
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
-    cardClass: ["grid-item", "second-desktop-switch"],
+    cardClass: ["grid-item", "second-desktop-switch", "anime"],
     cardImg: ["content-frame"],
     imgDetails: ["desktop-image-3", "frame-case-c", "column-one"],
     articleClassList: ["desktop-content", "column-two"],
@@ -118,7 +118,7 @@ const projects = [
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
-    cardClass: ["grid-item", "second-desktop-switch"],
+    cardClass: ["grid-item", "second-desktop-switch", "anime"],
     cardImg: ["content-frame"],
     imgDetails: ["desktop-image-4", "frame-case-d", "column-two"],
     articleClassList: ["desktop-content", "column-one"],

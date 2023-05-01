@@ -874,6 +874,10 @@ li.ext-item {
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
+  .anime:hover {
+    transform: scale(1.05);
+  }
+
   .logo:hover {
     animation: pulse 0.5s infinite;
   }
@@ -1043,6 +1047,7 @@ li.ext-item {
     height: 496px;
     margin: 142px 100px 0;
     padding: 45px 20px 0;
+    transition: transform 0.5s ease;
   }
 
   .close,
