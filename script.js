@@ -24,7 +24,7 @@ const projects = [
     p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Nature.svg",
+    featuredImage: "img/doctors-app.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
     live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
@@ -111,7 +111,7 @@ const projects = [
     p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Facebook.svg",
+    featuredImage: "img/cop-27.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
     live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",

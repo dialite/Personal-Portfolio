@@ -108,7 +108,7 @@ a:hover {
 h1 {
   display: flex;
   align-items: center;
-  width: 25%;
+  /* width: 25%; */
   margin: 3.5rem 1.2rem 1rem;
   margin-bottom: 15%;
   padding-top: 6rem;
@@ -281,14 +281,14 @@ button:active {
 }
 
 .frame-case-a {
-  background-image: url("img/Snapshoot-Portfolio-a.png");
+  background-image: url("img/doctors-app.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .frame-case-b {
-  background-image: url("img/Snapshoot-Portfolio-b.png");
+  background-image: url("img/doctors-app.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1070,7 +1070,7 @@ li.ext-item {
   }
 
   .desktop-image-1 {
-    background-image: url("img/Nature.svg");
+    background-image: url("img/doctors-app.png");
     height: 448px;
   }
 
@@ -1080,7 +1080,7 @@ li.ext-item {
   }
 
   .desktop-image-3 {
-    background-image: url("img/Facebook.svg");
+    background-image: url("img/cop-27.png");
     height: 448px;
   }
 
@@ -1241,7 +1241,7 @@ li.ext-item {
 
   /* modal window large screen */
   .modal-window {
-    max-width: 90%;
+    /* max-width: 90%; */
     position: fixed;
     top: 62%;
     left: 50%;
@@ -1257,7 +1257,7 @@ li.ext-item {
   }
 
   .modal-img {
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: 0 auto;
   }
 
@@ -1313,7 +1313,7 @@ li.ext-item {
   }
 
   .modal-img img {
-    /* width: 43rem; */
-    height: 19rem;
+    width: 70rem;
+    height: 21rem;
   }
 }
