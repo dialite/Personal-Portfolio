@@ -3,6 +3,7 @@ const close = document.querySelector(".close");
 const nav = document.querySelector(".place");
 const navLinks = document.querySelectorAll(".nav-link");
 const hamburger = document.querySelector(".hamburger");
+const identityBox2 = document.querySelector(".identity-box");
 
 //  Work details Selector
 const caravan = document.querySelector(".super-frame");
@@ -261,10 +262,17 @@ modalBody.classList.add("modal-body");
 
 close.addEventListener("click", () => {
   nav.classList.add("hide");
+  identityBox2.classList.add("active");
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var identityBox = document.querySelector(".identity-box");
+  identityBox.classList.add("active");
 });
 
 hamburger.addEventListener("click", () => {
   nav.classList.remove("hide");
+  identityBox2.classList.remove("active");
 });
 
 Array.from(navLinks).forEach((navlink) =>
@@ -457,9 +465,4 @@ nextElements.forEach((nextElement) => {
     content.classList.toggle("hide");
     moreElement.classList.toggle("more-rotate");
   });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-  var identityBox = document.querySelector(".identity-box");
-  identityBox.classList.add("active");
 });
