@@ -1,12 +1,12 @@
 body {
   margin: 0;
+  padding: 0;
   background-color: #040e26;
   font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
   color: rgb(204, 213, 243);
   /* padding-top: 120px; */
-  width: 100vw;
 }
 
 .super-frame {
