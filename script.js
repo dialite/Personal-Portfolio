@@ -458,3 +458,8 @@ nextElements.forEach((nextElement) => {
     moreElement.classList.toggle("more-rotate");
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var identityBox = document.querySelector(".identity-box");
+  identityBox.classList.add("active");
+});
