@@ -680,6 +680,7 @@ label {
   align-items: flex-start;
   padding: 0;
   margin: 0;
+  margin-top: 1rem;
   box-sizing: border-box;
   margin-bottom: 8px;
 }
@@ -1229,6 +1230,7 @@ li.ext-item {
   }
 
   .modal-img img {
-    width: 100%;
+    /* width: 43rem; */
+    height: 19rem;
   }
 }
