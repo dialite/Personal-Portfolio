@@ -288,21 +288,21 @@ button:active {
 }
 
 .frame-case-b {
-  background-image: url("img/doctors-app.png");
+  background-image: url("img/coin-stats-mobile.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .frame-case-c {
-  background-image: url("img/Snapshoot-Portfolio-c.png");
+  background-image: url("img/cop-27-mobile.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .frame-case-d {
-  background-image: url("img/Snapshoot-Portfolio-d.png");
+  background-image: url("img/bookstore-mobile.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -873,8 +873,39 @@ li.ext-item {
   filter: blur(6px);
 }
 
+.desktop-image-1 {
+  background-image: url("img/doctors-app-mobile-1.png");
+  height: 300px;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
+  .desktop-image-1 {
+    background-image: url("img/doctors-app-mobile-1.png");
+  }
+
+  .grid-item {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    background-color: #111f42;
+    color: rgb(204, 213, 243);
+    background-repeat: no-repeat;
+    background-position: 16px 16px;
+    border-radius: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 120px 16px 0;
+    width: 40rem;
+    padding: 20px;
+  }
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px) {
   .anime:hover {
     transform: scale(1.05);
   }
@@ -1071,12 +1102,12 @@ li.ext-item {
   }
 
   .desktop-image-1 {
-    background-image: url("img/doctors-app.png");
+    background-image: url("img/doctors-app-desk.png");
     height: 448px;
   }
 
   .desktop-image-2 {
-    background-image: url("img/Professional-art-printing.svg");
+    background-image: url("img/coin-stats-decktop.png");
     height: 448px;
   }
 
@@ -1086,7 +1117,7 @@ li.ext-item {
   }
 
   .desktop-image-4 {
-    background-image: url("img/Uber.svg");
+    background-image: url("img/bookstore-desktop-1.png");
     height: 448px;
   }
 

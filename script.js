@@ -24,7 +24,8 @@ const projects = [
     p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/doctors-app.png",
+    featuredImagetiny: "img/doctors-app-mobile-1.png",
+    featuredImage: "img/doctors-app-desk.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
     live: "https://doctorsfinal.netlify.app/",
@@ -36,15 +37,16 @@ const projects = [
     imgDetails: ["desktop-image-2", "frame-case-b", "column-two"],
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
-    name: "Multi-Post Stories",
+    name: "Coin Stats",
     tagline: ["CANOPY", "Back EndDev", "2015"],
     p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Professional-art-printing.svg",
+    featuredImagetiny: "img/coin-stats-mobile.png",
+    featuredImage: "img/coin-stats-decktop1.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://coin-stats.netlify.app/",
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
@@ -53,16 +55,17 @@ const projects = [
     imgDetails: ["desktop-image-2", "frame-case-b", "column-two"],
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
-    name: ["Multi-Post-Stories"],
+    name: ["Coin Stats"],
     tagline: ["FACEBOOK", "Full Stack Dev", "2015"],
     p: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Professional-art-printing.svg",
+    featuredImagetiny: "img/coin-stats-mobile.png",
+    featuredImage: "img/coin-stats-decktop1.png",
     liFormat: ["flex", "tool-content"],
     rubyClass: ["ruby"],
     technologies: ["html", "Ruby on rails", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://coin-stats.netlify.app/",
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
@@ -76,10 +79,11 @@ const projects = [
     p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Facebook.svg",
+    featuredImage: "img/cop-27.png",
+    featuredImagetiny: "img/cop-27-mobile.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://dialite.github.io/COP27/",
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
@@ -93,11 +97,12 @@ const projects = [
     p: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Facebook.svg",
+    featuredImage: "img/cop-27.png",
+    featuredImagetiny: "img/cop-27-mobile.png",
     liFormat: ["flex", "tool-content"],
     rubyClass: ["ruby"],
     technologies: ["html", "Ruby on rails", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://dialite.github.io/COP27/",
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
@@ -111,10 +116,11 @@ const projects = [
     p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/cop-27.png",
+    featuredImage: "img/bookstore-desktop-1.png",
+    featuredImagetiny: "img/bookstore-mobile.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://book-record.netlify.app/",
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
@@ -128,11 +134,12 @@ const projects = [
     p: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
-    featuredImage: "img/Facebook.svg",
+    featuredImage: "img/bookstore-desktop-1.png",
+    featuredImagetiny: "img/bookstore-mobile.png",
     liFormat: ["flex", "tool-content"],
     rubyClass: ["ruby"],
     technologies: ["html", "Ruby on rails", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://book-record.netlify.app/",
     source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
 ];
@@ -366,10 +373,15 @@ Array.from(projectBtns).forEach((projectBtn) =>
     modalBody.appendChild(taglineDiv);
     const imageDiv = createTag("div");
     imageDiv.classList.add("modal-img");
+
     const imgTag = createTagWithAttributeOnly("img", [
       "src",
-      project.featuredImage,
+      window.innerWidth >= 768
+        ? project.featuredImage
+        : project.featuredImagetiny,
     ]);
+    console.log("featuredImage: ", project.featuredImage);
+    console.log("featuredImagetiny: ", project.featuredImagetiny);
     imageDiv.appendChild(imgTag);
     modalBody.appendChild(imageDiv);
     const lowerContentDiv = createTag("div");
