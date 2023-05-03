@@ -27,8 +27,8 @@ const projects = [
     featuredImage: "img/doctors-app.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
-    live: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    live: "https://doctorsfinal.netlify.app/",
+    source: "https://github.com/dialite/Doctors-appointment-frontend",
   },
   {
     cardClass: ["grid-item", "mobile-switch"],
@@ -419,12 +419,23 @@ Array.from(projectBtns).forEach((projectBtn) =>
     li7.classList.add("ext-item", "live");
     const li8 = createTag("li");
     li8.classList.add("ext-item", "source");
-    li7.appendChild(
-      createTagWithAttribute("a", ["href", project.live, "See live"])
-    );
-    li8.appendChild(
-      createTagWithAttribute("a", ["href", project.source, "See Source"])
-    );
+
+    const liveLink = createTagWithAttribute("a", [
+      "href",
+      project.live,
+      "See live",
+    ]);
+    liveLink.setAttribute("target", "_blank");
+    li7.appendChild(liveLink);
+
+    const sourceLink = createTagWithAttribute("a", [
+      "href",
+      project.source,
+      "See Source",
+    ]);
+    sourceLink.setAttribute("target", "_blank");
+    li8.appendChild(sourceLink);
+
     ul3.appendChild(li7);
     ul3.appendChild(li8);
     extDiv.appendChild(ul3);

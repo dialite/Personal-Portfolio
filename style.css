@@ -719,6 +719,7 @@ button.modal-button {
 
 .modal-h1 {
   margin: 0;
+  margin-top: 1rem;
   padding: 0;
   padding: 0 10px;
   color: rgb(204, 213, 243);
@@ -1313,7 +1314,7 @@ li.ext-item {
   }
 
   .modal-img img {
-    width: 70rem;
+    width: 50rem;
     height: 21rem;
   }
 }
