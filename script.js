@@ -47,7 +47,7 @@ const projects = [
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
     live: "https://coin-stats.netlify.app/",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    source: "https://github.com/dialite/coin-stats",
   },
   {
     cardClass: ["grid-item", "second-desktop-switch", "anime"],
@@ -66,7 +66,7 @@ const projects = [
     rubyClass: ["ruby"],
     technologies: ["html", "Ruby on rails", "css", "javascript"],
     live: "https://coin-stats.netlify.app/",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    source: "https://github.com/dialite/coin-stats",
   },
   {
     cardClass: ["grid-item", "mobile-switch"],
@@ -84,7 +84,7 @@ const projects = [
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
     live: "https://dialite.github.io/COP27/",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    source: "https://github.com/dialite/COP27",
   },
   {
     cardClass: ["grid-item", "second-desktop-switch", "anime"],
@@ -103,7 +103,7 @@ const projects = [
     rubyClass: ["ruby"],
     technologies: ["html", "Ruby on rails", "css", "javascript"],
     live: "https://dialite.github.io/COP27/",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    source: "https://github.com/dialite/COP27",
   },
   {
     cardClass: ["grid-item", "mobile-switch"],
@@ -121,7 +121,7 @@ const projects = [
     liFormat: ["flex", "tool-content"],
     technologies: ["html", "css", "javascript"],
     live: "https://book-record.netlify.app/",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    source: "https://github.com/dialite/bookstore-app",
   },
   {
     cardClass: ["grid-item", "second-desktop-switch", "anime"],
@@ -140,7 +140,7 @@ const projects = [
     rubyClass: ["ruby"],
     technologies: ["html", "Ruby on rails", "css", "javascript"],
     live: "https://book-record.netlify.app/",
-    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
+    source: "https://github.com/dialite/bookstore-app",
   },
 ];
 
