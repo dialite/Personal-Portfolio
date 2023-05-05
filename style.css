@@ -29,7 +29,7 @@ body {
   background-image: url("img/header-shapesmobile@2x.svg");
   width: 100%;
   margin-bottom: 10px;
-  height: 83vh;
+  height: 95vh;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
@@ -102,16 +102,16 @@ a:hover {
   text-align: center;
   align-items: center;
   color: #6070ff;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h1 {
   display: flex;
   align-items: center;
   /* width: 25%; */
-  margin: 3.5rem 1.2rem 1rem;
-  margin-bottom: 15%;
-  padding-top: 6rem;
+  margin: 1.5rem 1.5rem 1rem;
+  margin-bottom: 10%;
+  padding-top: 4rem;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -119,9 +119,19 @@ h1 {
   font-size: 3.5rem;
 }
 
+.brief {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 1.5rem 1rem;
+  /* margin-bottom: 8%; */
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  max-width: 30rem;
+}
+
 p {
   font-style: normal;
-  margin: 0 1.5rem 1rem 0;
+  margin: 1rem 1.5rem 1rem 0;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
   font-weight: 400;
