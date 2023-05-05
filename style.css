@@ -518,7 +518,6 @@ h2 {
   color: rgb(204, 213, 243);
   margin-top: 100px;
   margin-bottom: 0;
-  padding-top: 10rem;
 }
 
 .contact-notice {
@@ -1260,7 +1259,7 @@ li.ext-item {
   }
 
   .contact-me {
-    height: 950px;
+    height: 846px;
   }
 
   .contact-form {
