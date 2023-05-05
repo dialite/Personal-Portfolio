@@ -65,7 +65,7 @@ const projects = [
     tagline: ["COIN STATS", "React Dev", "2022"],
     p: "Track your favorite cryptocurrencies on the go with Crypto Stats – the ultimate mobile web app for real-time market capitalization stats. Stay ahead of the game with our user-friendly and innovative app, powered by CoinStats API. Download now and stay in the know!",
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
+      "Stay ahead of the game with Crypto Stats – the ultimate mobile web application for real-time cryptocurrency tracking! Powered by CoinStats API, our innovative app delivers the latest market capitalization stats for all your favorite digital currencies, all in one convenient location. Designed with React and Redux, Crypto Stats offers a seamless and user-friendly experience for crypto enthusiasts on the go. Download now and stay in the know!",
     featuredImagetiny: "img/coin-stats-mobile.png",
     featuredImage: "img/coin-stats-decktop1.png",
     liFormat: ["flex", "tool-content"],
@@ -306,25 +306,28 @@ modalBody.classList.add("modal-body");
 
 close.addEventListener("click", () => {
   nav.classList.add("hide");
-  identityBox2.classList.add("active");
+  // identityBox2.classList.add("active");
+  identityBox2.classList.remove("hide");
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var identityBox = document.querySelector(".identity-box");
-  identityBox.classList.add("active");
+  var identityBox2 = document.querySelector(".identity-box");
+  identityBox2.classList.add("active");
 });
 
 hamburger.addEventListener("click", () => {
   nav.classList.remove("hide");
-  identityBox2.classList.remove("active");
+  identityBox2.classList.add("hide");
 });
 
 Array.from(navLinks).forEach((navlink) =>
   navlink.addEventListener("click", () => {
     nav.classList.add("hide");
+    identityBox2.classList.remove("hide");
   })
 );
 
+//  FORM SUBMISSION VALIDATION
 //  FORM SUBMISSION VALIDATION
 const formContainer = document.getElementById("form");
 formContainer.addEventListener("submit", (event) => {
@@ -428,8 +431,6 @@ Array.from(projectBtns).forEach((projectBtn) =>
         ? project.featuredImage
         : project.featuredImagetiny,
     ]);
-    console.log("featuredImage: ", project.featuredImage);
-    console.log("featuredImagetiny: ", project.featuredImagetiny);
     imageDiv.appendChild(imgTag);
     modalBody.appendChild(imageDiv);
     const lowerContentDiv = createTag("div");
