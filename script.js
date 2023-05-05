@@ -306,24 +306,22 @@ modalBody.classList.add("modal-body");
 
 close.addEventListener("click", () => {
   nav.classList.add("hide");
-  // identityBox2.classList.add("active");
-  identityBox2.classList.remove("hide");
+  identityBox2.classList.add("active");
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var identityBox2 = document.querySelector(".identity-box");
-  identityBox2.classList.add("active");
+  var identityBox = document.querySelector(".identity-box");
+  identityBox.classList.add("active");
 });
 
 hamburger.addEventListener("click", () => {
   nav.classList.remove("hide");
-  identityBox2.classList.add("hide");
+  identityBox2.classList.remove("active");
 });
 
 Array.from(navLinks).forEach((navlink) =>
   navlink.addEventListener("click", () => {
     nav.classList.add("hide");
-    identityBox2.classList.remove("hide");
   })
 );
 
@@ -419,6 +417,8 @@ Array.from(projectBtns).forEach((projectBtn) =>
         ? project.featuredImage
         : project.featuredImagetiny,
     ]);
+    console.log("featuredImage: ", project.featuredImage);
+    console.log("featuredImagetiny: ", project.featuredImagetiny);
     imageDiv.appendChild(imgTag);
     modalBody.appendChild(imageDiv);
     const lowerContentDiv = createTag("div");
