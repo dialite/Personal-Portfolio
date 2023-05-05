@@ -306,7 +306,7 @@ modalBody.classList.add("modal-body");
 
 close.addEventListener("click", () => {
   nav.classList.add("hide");
-  identityBox2.classList.add("active");
+  // identityBox2.classList.add("active");
   identityBox2.classList.remove("hide");
 });
 
