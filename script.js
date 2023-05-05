@@ -19,17 +19,15 @@ const projects = [
     imgDetails: ["desktop-image-1", "frame-case-a", "column-one"],
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
-    name: "Doctor's Appointment",
-    highlights: ["Health", "Full Stack Dev", "2023"],
-    stacks: ["React js", "Ruby on Rails", "PostgreSQL"],
-    tagline: ["Health", "Full Stack Dev", "2023"],
-    p: "Revolutionize your medical practice with our web application – register new doctors, store patient information securely, and schedule appointments effortlessly. Say goodbye to paper-based systems and streamline your operations with ease. Try it now!",
+    name: "Tonic",
+    tagline: ["CANOPY", "Back EndDev", "2015"],
+    p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
-      "Streamline your medical practice with ease! Our innovative web application allows you to seamlessly register new doctors, securely store patient information, and schedule appointments with just a few clicks. Say goodbye to the hassle of paper-based systems and hello to a more efficient way of managing your medical practice. Try it out today!",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImagetiny: "img/doctors-app-mobile-1.png",
     featuredImage: "img/doctors-app-desk.png",
     liFormat: ["flex", "tool-content"],
-    technologies: ["React js", "Ruby on Rails", "PostgreSQL"],
+    technologies: ["html", "css", "javascript"],
     live: "https://doctorsfinal.netlify.app/",
     source: "https://github.com/dialite/Doctors-appointment-frontend",
   },
@@ -40,18 +38,16 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: "Coin Stats",
-    highlights: ["COIN STATS", "React Dev", "2022"],
-    stacks: ["React", "Redux", "Javascript"],
-    tagline: ["COIN STATS", "React Dev", "2022"],
-    p: "Track your favorite cryptocurrencies on the go with Crypto Stats – the ultimate mobile web app for real-time market capitalization stats. Stay ahead of the game with our user-friendly and innovative app, powered by CoinStats API. Download now and stay in the know!",
+    tagline: ["CANOPY", "Back EndDev", "2015"],
+    p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
-      "Stay ahead of the game with Crypto Stats – the ultimate mobile web application for real-time cryptocurrency tracking! Powered by CoinStats API, our innovative app delivers the latest market capitalization stats for all your favorite digital currencies, all in one convenient location. Designed with React and Redux, Crypto Stats offers a seamless and user-friendly experience for crypto enthusiasts on the go. Download now and stay in the know!",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImagetiny: "img/coin-stats-mobile.png",
     featuredImage: "img/coin-stats-decktop1.png",
     liFormat: ["flex", "tool-content"],
-    technologies: ["React", "Redux", "Javascript"],
+    technologies: ["html", "css", "javascript"],
     live: "https://coin-stats.netlify.app/",
-    source: "https://github.com/dialite/coin-stats",
+    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
     cardClass: ["grid-item", "second-desktop-switch", "anime"],
@@ -60,19 +56,17 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: ["Coin Stats"],
-    highlights: ["COIN STATS", "React Dev", "2022"],
-    stacks: ["React", "Redux", "Javascript"],
-    tagline: ["COIN STATS", "React Dev", "2022"],
-    p: "Track your favorite cryptocurrencies on the go with Crypto Stats – the ultimate mobile web app for real-time market capitalization stats. Stay ahead of the game with our user-friendly and innovative app, powered by CoinStats API. Download now and stay in the know!",
+    tagline: ["FACEBOOK", "Full Stack Dev", "2015"],
+    p: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImagetiny: "img/coin-stats-mobile.png",
     featuredImage: "img/coin-stats-decktop1.png",
     liFormat: ["flex", "tool-content"],
     rubyClass: ["ruby"],
-    technologies: ["React", "Redux", "Javascript"],
+    technologies: ["html", "Ruby on rails", "css", "javascript"],
     live: "https://coin-stats.netlify.app/",
-    source: "https://github.com/dialite/coin-stats",
+    source: "https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up",
   },
   {
     cardClass: ["grid-item", "mobile-switch"],
@@ -80,13 +74,11 @@ const projects = [
     imgDetails: ["desktop-image-3", "frame-case-c", "column-one"],
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
-    name: "Climate Action Innovation - COP27",
-    highlights: ["COP27", "Front EndDev", "2022"],
-    stacks: ["html", "css", "javascript"],
-    tagline: ["COP27", "Front EndDev", "2022"],
-    p: "Join the global fight against climate change with Climate Action Innovation Zone COP27 event website. Designed to inspire and built with HTML, CSS, and JavaScript, our innovative webpage provides a user-friendly platform for the world's leading climate change summit. Join the movement for a brighter, greener future – visit us now!",
+    name: "Tonic",
+    tagline: ["CANOPY", "Back EndDev", "2015"],
+    p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
-      "Join the global fight against climate change with the Climate Action Innovation Zone COP27 event website! Designed with Cindy Shin's guidelines and built with HTML, CSS, and JavaScript, our innovative webpage offers a seamless and engaging experience for the world's leading climate change summit. Explore our user-friendly platform and join the movement for a brighter, greener future. Don't miss out – visit us today!",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImage: "img/cop-27.png",
     featuredImagetiny: "img/cop-27-mobile.png",
     liFormat: ["flex", "tool-content"],
@@ -100,18 +92,16 @@ const projects = [
     imgDetails: ["desktop-image-3", "frame-case-c", "column-one"],
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
-    name: "Climate Action Innovation - COP27",
-    highlights: ["COP27", "Front EndDev", "2022"],
-    stacks: ["html", "css", "javascript"],
-    tagline: ["FACEBOOK", "Fron End Dev", "2022"],
-    p: "Join the global fight against climate change with Climate Action Innovation Zone COP27 event website. Designed to inspire and built with HTML, CSS, and JavaScript, our innovative webpage provides a user-friendly platform for the world's leading climate change summit. Join the movement for a brighter, greener future – visit us now!",
+    name: "Facebook 360",
+    tagline: ["FACEBOOK", "Full Stack Dev", "2015"],
+    p: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     description:
-      "Join the global fight against climate change with the Climate Action Innovation Zone COP27 event website! Designed with Cindy Shin's guidelines and built with HTML, CSS, and JavaScript, our innovative webpage offers a seamless and engaging experience for the world's leading climate change summit. Explore our user-friendly platform and join the movement for a brighter, greener future. Don't miss out – visit us today!",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImage: "img/cop-27.png",
     featuredImagetiny: "img/cop-27-mobile.png",
     liFormat: ["flex", "tool-content"],
     rubyClass: ["ruby"],
-    technologies: ["html", "css", "javascript"],
+    technologies: ["html", "Ruby on rails", "css", "javascript"],
     live: "https://dialite.github.io/COP27/",
     source: "https://github.com/dialite/COP27",
   },
@@ -121,17 +111,15 @@ const projects = [
     imgDetails: ["desktop-image-4", "frame-case-d", "column-two"],
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
-    name: "Book Store Tracker",
-    highlights: ["BOOKS", "Front End Dev", "2022"],
-    stacks: ["React", "Redux", "Javascript"],
-    tagline: ["BOOKS", "Front End Dev", "2022"],
-    p: "Effortlessly manage your reading list with our book-tracking web application. Our user-friendly platform, built with React, Redux, and an external API, makes it easy to browse, add, and delete books. Whether you're an avid reader or just starting out, start your reading journey with us today!",
+    name: "Multi-Post Stories",
+    tagline: ["CANOPY", "Back EndDev", "2015"],
+    p: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     description:
-      "Take control of your reading list with our book-tracking web application – the ultimate tool for book lovers everywhere! Developed with the power of React, Redux, and an external API, our innovative platform empowers users to browse, add, and delete books with ease. Whether you're a bookworm or just starting, our user-friendly interface makes it easy to manage your reading list. Download now and start your book journey today!",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImage: "img/bookstore-desktop-1.png",
     featuredImagetiny: "img/bookstore-mobile.png",
     liFormat: ["flex", "tool-content"],
-    technologies: ["React", "Redux", "Javascript"],
+    technologies: ["html", "css", "javascript"],
     live: "https://book-record.netlify.app/",
     source: "https://github.com/dialite/bookstore-app",
   },
@@ -141,18 +129,16 @@ const projects = [
     imgDetails: ["desktop-image-4", "frame-case-d", "column-two"],
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
-    name: "Book Store Tracker",
-    highlights: ["BOOKS", "Front End Dev", "2022"],
-    stacks: ["React", "Redux", "Javascript"],
-    tagline: ["Books", "Front End Developer", "2022"],
-    p: "Effortlessly manage your reading list with our book-tracking web application. Our user-friendly platform, built with React, Redux, and an external API, makes it easy to browse, add, and delete books. Whether you're an avid reader or just starting out, start your reading journey with us today!",
+    name: "Uber Navigation",
+    tagline: ["Uber", "Lead Developer", "2018"],
+    p: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
     description:
-      "Take control of your reading list with our book-tracking web application – the ultimate tool for book lovers everywhere! Developed with the power of React, Redux, and an external API, our innovative platform empowers users to browse, add, and delete books with ease. Whether you're a bookworm or just starting, our user-friendly interface makes it easy to manage your reading list. Download now and start your book journey today!",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, tenetur officiis. Temporibus aut error, obcaecatifacere alias at sequi quae eveniet tempora, cupiditate perspiciatis, doloremque consequatur labore qui nostrum culpa placeat veritatis odio laboriosam ut quidem sunt asperiores..",
     featuredImage: "img/bookstore-desktop-1.png",
     featuredImagetiny: "img/bookstore-mobile.png",
     liFormat: ["flex", "tool-content"],
     rubyClass: ["ruby"],
-    technologies: ["React", "Redux", "Javascript"],
+    technologies: ["html", "Ruby on rails", "css", "javascript"],
     live: "https://book-record.netlify.app/",
     source: "https://github.com/dialite/bookstore-app",
   },
@@ -209,35 +195,23 @@ function createCard(index) {
   h3Content.textContent = projects[index].name;
   h3Title.appendChild(h3Content);
 
-  // Create dynamic text for each cards showing highlights
-  const highlightList = createTag("ul");
-  highlightList.classList.add("flex");
-  h3Title.appendChild(highlightList);
+  const canop = createTag("ul");
+  canop.classList.add("flex");
+  h3Title.appendChild(canop);
 
-  for (let i = 0; i < projects[index].highlights.length; i++) {
-    const listItem = createTag("li");
-    listItem.classList.add("canopy");
-    listItem.textContent = projects[index].highlights[i];
-    highlightList.appendChild(listItem);
-  }
+  //  create options link;
+  const link1 = createTag("li");
+  link1.classList.add("canopy");
+  link1.textContent = "CANOPY";
+  canop.appendChild(link1);
 
-  // const canop = createTag("ul");
-  // canop.classList.add("flex");
-  // h3Title.appendChild(canop);
+  const link2 = createTag("li");
+  link2.textContent = "Back End Dev";
+  canop.appendChild(link2);
 
-  // //  create options link;
-  // const link1 = createTag("li");
-  // link1.classList.add("canopy");
-  // link1.textContent = "CANOPY";
-  // canop.appendChild(link1);
-
-  // const link2 = createTag("li");
-  // link2.textContent = "Back End Dev";
-  // canop.appendChild(link2);
-
-  // const link3 = createTag("li");
-  // link3.textContent = "2015";
-  // canop.appendChild(link3);
+  const link3 = createTag("li");
+  link3.textContent = "2015";
+  canop.appendChild(link3);
 
   //  create paragraph and append to article
   const p = createTag("p");
@@ -250,28 +224,17 @@ function createCard(index) {
   article.appendChild(langDiv);
 
   //  create languge div links
-  const stackList = createTag("ul");
-  stackList.classList.add("flex");
-  langDiv.appendChild(stackList);
+  const link4 = createTag("li");
+  link4.textContent = "html";
+  langDiv.appendChild(link4);
 
-  for (let i = 0; i < projects[index].stacks.length; i++) {
-    const listItem = createTag("li");
-    listItem.classList.add("canopy");
-    listItem.textContent = projects[index].stacks[i];
-    stackList.appendChild(listItem);
-  }
+  const link5 = createTag("li");
+  link5.textContent = "css";
+  langDiv.appendChild(link5);
 
-  // const link4 = createTag("li");
-  // link4.textContent = "html";
-  // langDiv.appendChild(link4);
-
-  // const link5 = createTag("li");
-  // link5.textContent = "css";
-  // langDiv.appendChild(link5);
-
-  // const link6 = createTag("li");
-  // link6.textContent = "javascript";
-  // langDiv.appendChild(link6);
+  const link6 = createTag("li");
+  link6.textContent = "javascript";
+  langDiv.appendChild(link6);
 
   //  create a button
   const button = createTag("button");
