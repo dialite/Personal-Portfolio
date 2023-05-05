@@ -146,6 +146,8 @@ p {
   line-height: 24px;
   font-weight: 400;
   font-size: 15px;
+  /* width: 25rem; */
+  height: auto;
 }
 
 .socials {
@@ -200,8 +202,8 @@ ul {
 }
 
 .grid-item ul {
-  width: 203px;
-  height: 24px;
+  /* width: 203px;
+  height: 24px; */
   padding-left: 0;
 }
 
@@ -252,7 +254,7 @@ ul {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin-left: 18px;
+  margin-left: 15px;
   background-color: #040e26;
   color: #6070ff;
   border-radius: 8px;
@@ -264,9 +266,9 @@ ul {
   list-style-type: none;
 }
 
-ul .canopy {
+/* ul .canopy {
   color: rgb(204, 213, 243);
-}
+} */
 
 button {
   width: 124px;
@@ -771,7 +773,7 @@ button.modal-button {
 .tagline a {
   display: inline-block;
   text-decoration: none;
-  color: rgb(204, 213, 243);
+  color: darkgray;
   font-family: "Poppins", sans-serif;
 }
 
@@ -822,7 +824,8 @@ button.modal-button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 15%;
+  /* padding-left: 15%; */
+  justify-content: space-around;
 }
 
 .tech-item a {
@@ -1111,7 +1114,7 @@ li.ext-item {
     width: auto;
     /* height: 496px; */
     margin: 142px 100px 0;
-    padding: 45px 20px 0;
+    /* padding: 45px 20px 0; */
     transition: transform 0.5s ease;
   }
 
@@ -1165,6 +1168,17 @@ li.ext-item {
     grid-column: 1;
     grid-row: 1;
     height: 448px;
+  }
+
+  .desktop-content p {
+    /* font-style: normal;
+    margin: 0 1.5rem 1rem 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 15px; */
+    width: 25rem;
+    /* height: auto; */
   }
 
   .content {

@@ -20,6 +20,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
     name: "Doctor's Appointment",
+    highlights: ["Health", "Full Stack Dev", "2023"],
+    stacks: ["React js", "Ruby on Rails", "PostgreSQL"],
     tagline: ["Health", "Full Stack Dev", "2023"],
     p: "Revolutionize your medical practice with our web application – register new doctors, store patient information securely, and schedule appointments effortlessly. Say goodbye to paper-based systems and streamline your operations with ease. Try it now!",
     description:
@@ -38,6 +40,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: "Coin Stats",
+    highlights: ["COIN STATS", "React Dev", "2022"],
+    stacks: ["React", "Redux", "Javascript"],
     tagline: ["COIN STATS", "React Dev", "2022"],
     p: "Track your favorite cryptocurrencies on the go with Crypto Stats – the ultimate mobile web app for real-time market capitalization stats. Stay ahead of the game with our user-friendly and innovative app, powered by CoinStats API. Download now and stay in the know!",
     description:
@@ -56,6 +60,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: ["Coin Stats"],
+    highlights: ["COIN STATS", "React Dev", "2022"],
+    stacks: ["React", "Redux", "Javascript"],
     tagline: ["COIN STATS", "React Dev", "2022"],
     p: "Track your favorite cryptocurrencies on the go with Crypto Stats – the ultimate mobile web app for real-time market capitalization stats. Stay ahead of the game with our user-friendly and innovative app, powered by CoinStats API. Download now and stay in the know!",
     description:
@@ -75,6 +81,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
     name: "Climate Action Innovation - COP27",
+    highlights: ["COP27", "Front EndDev", "2022"],
+    stacks: ["html", "css", "javascript"],
     tagline: ["COP27", "Front EndDev", "2022"],
     p: "Join the global fight against climate change with Climate Action Innovation Zone COP27 event website. Designed to inspire and built with HTML, CSS, and JavaScript, our innovative webpage provides a user-friendly platform for the world's leading climate change summit. Join the movement for a brighter, greener future – visit us now!",
     description:
@@ -93,6 +101,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
     name: "Climate Action Innovation - COP27",
+    highlights: ["COP27", "Front EndDev", "2022"],
+    stacks: ["html", "css", "javascript"],
     tagline: ["FACEBOOK", "Fron End Dev", "2022"],
     p: "Join the global fight against climate change with Climate Action Innovation Zone COP27 event website. Designed to inspire and built with HTML, CSS, and JavaScript, our innovative webpage provides a user-friendly platform for the world's leading climate change summit. Join the movement for a brighter, greener future – visit us now!",
     description:
@@ -112,6 +122,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: "Book Store Tracker",
+    highlights: ["BOOKS", "Front End Dev", "2022"],
+    stacks: ["React", "Redux", "Javascript"],
     tagline: ["BOOKS", "Front End Dev", "2022"],
     p: "Effortlessly manage your reading list with our book-tracking web application. Our user-friendly platform, built with React, Redux, and an external API, makes it easy to browse, add, and delete books. Whether you're an avid reader or just starting out, start your reading journey with us today!",
     description:
@@ -130,6 +142,8 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: "Book Store Tracker",
+    highlights: ["BOOKS", "Front End Dev", "2022"],
+    stacks: ["React", "Redux", "Javascript"],
     tagline: ["Books", "Front End Developer", "2022"],
     p: "Effortlessly manage your reading list with our book-tracking web application. Our user-friendly platform, built with React, Redux, and an external API, makes it easy to browse, add, and delete books. Whether you're an avid reader or just starting out, start your reading journey with us today!",
     description:
@@ -195,23 +209,35 @@ function createCard(index) {
   h3Content.textContent = projects[index].name;
   h3Title.appendChild(h3Content);
 
-  const canop = createTag("ul");
-  canop.classList.add("flex");
-  h3Title.appendChild(canop);
+  // Create dynamic text for each cards showing highlights
+  const highlightList = createTag("ul");
+  highlightList.classList.add("flex");
+  h3Title.appendChild(highlightList);
 
-  //  create options link;
-  const link1 = createTag("li");
-  link1.classList.add("canopy");
-  link1.textContent = "CANOPY";
-  canop.appendChild(link1);
+  for (let i = 0; i < projects[index].highlights.length; i++) {
+    const listItem = createTag("li");
+    listItem.classList.add("canopy");
+    listItem.textContent = projects[index].highlights[i];
+    highlightList.appendChild(listItem);
+  }
 
-  const link2 = createTag("li");
-  link2.textContent = "Back End Dev";
-  canop.appendChild(link2);
+  // const canop = createTag("ul");
+  // canop.classList.add("flex");
+  // h3Title.appendChild(canop);
 
-  const link3 = createTag("li");
-  link3.textContent = "2015";
-  canop.appendChild(link3);
+  // //  create options link;
+  // const link1 = createTag("li");
+  // link1.classList.add("canopy");
+  // link1.textContent = "CANOPY";
+  // canop.appendChild(link1);
+
+  // const link2 = createTag("li");
+  // link2.textContent = "Back End Dev";
+  // canop.appendChild(link2);
+
+  // const link3 = createTag("li");
+  // link3.textContent = "2015";
+  // canop.appendChild(link3);
 
   //  create paragraph and append to article
   const p = createTag("p");
@@ -224,17 +250,28 @@ function createCard(index) {
   article.appendChild(langDiv);
 
   //  create languge div links
-  const link4 = createTag("li");
-  link4.textContent = "html";
-  langDiv.appendChild(link4);
+  const stackList = createTag("ul");
+  stackList.classList.add("flex");
+  langDiv.appendChild(stackList);
 
-  const link5 = createTag("li");
-  link5.textContent = "css";
-  langDiv.appendChild(link5);
+  for (let i = 0; i < projects[index].stacks.length; i++) {
+    const listItem = createTag("li");
+    listItem.classList.add("canopy");
+    listItem.textContent = projects[index].stacks[i];
+    stackList.appendChild(listItem);
+  }
 
-  const link6 = createTag("li");
-  link6.textContent = "javascript";
-  langDiv.appendChild(link6);
+  // const link4 = createTag("li");
+  // link4.textContent = "html";
+  // langDiv.appendChild(link4);
+
+  // const link5 = createTag("li");
+  // link5.textContent = "css";
+  // langDiv.appendChild(link5);
+
+  // const link6 = createTag("li");
+  // link6.textContent = "javascript";
+  // langDiv.appendChild(link6);
 
   //  create a button
   const button = createTag("button");
