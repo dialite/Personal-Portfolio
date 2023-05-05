@@ -103,7 +103,7 @@ const projects = [
     name: "Climate Action Innovation - COP27",
     highlights: ["COP27", "Front EndDev", "2022"],
     stacks: ["html", "css", "javascript"],
-    tagline: ["FACEBOOK", "Fron End Dev", "2022"],
+    tagline: ["COP27", "Fron End Dev", "2022"],
     p: "Join the global fight against climate change with Climate Action Innovation Zone COP27 event website. Designed to inspire and built with HTML, CSS, and JavaScript, our innovative webpage provides a user-friendly platform for the world's leading climate change summit. Join the movement for a brighter, greener future – visit us now!",
     description:
       "Join the global fight against climate change with the Climate Action Innovation Zone COP27 event website! Designed with Cindy Shin's guidelines and built with HTML, CSS, and JavaScript, our innovative webpage offers a seamless and engaging experience for the world's leading climate change summit. Explore our user-friendly platform and join the movement for a brighter, greener future. Don't miss out – visit us today!",
