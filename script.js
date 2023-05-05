@@ -307,6 +307,7 @@ modalBody.classList.add("modal-body");
 close.addEventListener("click", () => {
   nav.classList.add("hide");
   identityBox2.classList.add("active");
+  identityBox2.classList.remove("hide");
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -316,12 +317,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 hamburger.addEventListener("click", () => {
   nav.classList.remove("hide");
-  identityBox2.classList.remove("active");
+  identityBox2.classList.add("hide");
 });
 
 Array.from(navLinks).forEach((navlink) =>
   navlink.addEventListener("click", () => {
     nav.classList.add("hide");
+    identityBox2.classList.remove("hide");
   })
 );
 
