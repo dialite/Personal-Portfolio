@@ -26,7 +26,7 @@ This is a my first phase project on my personal portfolio development with micro
 8. Then run git clone https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up
 
 
-Here is a link directly to the repository page: https://github.com/dialite/Portfolio-Mobile/tree/portfolio-pop-up
+Here is a Demo link for the project: https://dialite.github.io/Portfolio-Mobile/
 
 
 👤 Raymond Olisa
