@@ -92,7 +92,7 @@ a {
 }
 
 a:hover {
-  color: #6070ff;
+  color: #fff;
 }
 
 .logo {
@@ -381,14 +381,28 @@ h2 {
   align-items: center;
 }
 
-.about-me button {
+.btn {
   width: 124px;
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #0000ee;
   background-color: rgb(204, 213, 243);
   margin: 15px 24px;
+}
+
+.btn a {
+  color: #0000ee;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #6070ab;
+  color: #fff;
+}
+
+.btn:hover a {
+  color: #fff;
 }
 
 .abt {
@@ -558,14 +572,14 @@ label {
 .contact-button {
   background: rgb(204, 213, 243);
   border-radius: 8px;
-  border: 1px solid #fff;
+  border: 1px solid #6070ff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #0000ee;
   width: 160px;
   height: 48px;
   text-align: center;
