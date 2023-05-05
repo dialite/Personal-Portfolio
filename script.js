@@ -419,8 +419,6 @@ Array.from(projectBtns).forEach((projectBtn) =>
         ? project.featuredImage
         : project.featuredImagetiny,
     ]);
-    console.log("featuredImage: ", project.featuredImage);
-    console.log("featuredImagetiny: ", project.featuredImagetiny);
     imageDiv.appendChild(imgTag);
     modalBody.appendChild(imageDiv);
     const lowerContentDiv = createTag("div");
