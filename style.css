@@ -275,13 +275,13 @@ button {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: #6070ff;
-  background-color: #fff;
+  color: #0000ee;
   margin: 15px 0;
+  background-color: rgb(204, 213, 243);
 }
 
 button:hover {
-  text-decoration: underline;
+  text-decoration: none;
   background-color: #6070ab;
   color: #fff;
 }
@@ -387,7 +387,7 @@ h2 {
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #6070ff;
-  background-color: #fff;
+  background-color: rgb(204, 213, 243);
   margin: 15px 24px;
 }
 
@@ -1019,6 +1019,10 @@ li.ext-item {
     color: rgb(204, 213, 243);
   }
 
+  .nav-item a:hover {
+    color: #6070ff;
+  }
+
   .nav-item:nth-child(4):hover {
     transform: scale(1.08);
     background: transparent;
@@ -1080,8 +1084,13 @@ li.ext-item {
     margin-bottom: 5rem;
   }
 
+  .brief {
+    margin: 1.5rem 1.2rem 1rem;
+  }
+
   p {
     width: 60%;
+    margin: 1rem 1.5rem 1rem 1.2rem;
   }
 
   .grid-item {
