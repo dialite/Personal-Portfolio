@@ -311,8 +311,8 @@ close.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var identityBox = document.querySelector(".identity-box");
-  identityBox.classList.add("active");
+  var identityBox2 = document.querySelector(".identity-box");
+  identityBox2.classList.add("active");
 });
 
 hamburger.addEventListener("click", () => {
