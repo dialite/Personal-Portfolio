@@ -20,10 +20,10 @@ body {
   transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
-/* .identity-box.active {
+.identity-box.active {
   opacity: 1;
   transform: translateY(0);
-} */
+}
 
 .container {
   background-image: url("img/header-shapesmobile@2x.svg");
@@ -986,10 +986,10 @@ li.ext-item {
     /* transition: opacity 0.3s ease-out; */
   }
 
-  .identity-box.active {
+  /* .identity-box.active {
     opacity: 1;
     transform: translateY(3);
-  }
+  } */
 
   .container {
     display: flex;
