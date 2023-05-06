@@ -980,16 +980,17 @@ li.ext-item {
   }
 
   .identity-box {
+    height: 600px;
     transform: rotate(45deg);
     transition: transform 1.5s ease-out;
     opacity: 0;
     /* transition: opacity 0.3s ease-out; */
   }
 
-  /* .identity-box.active {
+  .identity-box.active {
     opacity: 1;
     transform: translateY(3);
-  } */
+  }
 
   .container {
     display: flex;
