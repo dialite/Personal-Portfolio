@@ -980,13 +980,10 @@ li.ext-item {
   }
 
   .identity-box {
-    animation-name: slideInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: none;
+    transform: rotate(45deg);
+    transition: transform 1.5s ease-out;
+    opacity: 0;
+    /* transition: opacity 0.3s ease-out; */
   }
 
   .identity-box.active {
