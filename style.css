@@ -29,7 +29,8 @@ body {
   background-image: url("img/header-shapesmobile@2x.svg");
   width: 100%;
   margin-bottom: 10px;
-  height: 95vh;
+  height: 100%;
+  padding-bottom: 3rem;
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 80px;
