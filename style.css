@@ -299,14 +299,14 @@ button:active {
 }
 
 .frame-case-b {
-  background-image: url("img/coin-stats-tab.png");
+  background-image: url("img/sumz.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .frame-case-c {
-  background-image: url("img/cop-27-mobile.png");
+  background-image: url("img/coin-stats-tab.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1146,12 +1146,12 @@ li.ext-item {
   }
 
   .desktop-image-2 {
-    background-image: url("img/coin-stats-decktop.png");
+    background-image: url("img/sumz.png");
     height: 448px;
   }
 
   .desktop-image-3 {
-    background-image: url("img/cop-27.png");
+    background-image: url("img/coin-stats-decktop.png");
     height: 448px;
   }
 
