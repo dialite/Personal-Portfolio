@@ -306,14 +306,14 @@ button:active {
 }
 
 .frame-case-c {
-  background-image: url("img/coin-stats-tab.png");
+  background-image: url("img/sage1.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .frame-case-d {
-  background-image: url("img/bookstore-mobile.png");
+  background-image: url("img/doctors-app-desk.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1151,12 +1151,12 @@ li.ext-item {
   }
 
   .desktop-image-3 {
-    background-image: url("img/coin-stats-decktop.png");
+    background-image: url("img/sage1.png");
     height: 448px;
   }
 
   .desktop-image-4 {
-    background-image: url("img/bookstore-desktop-1.png");
+    background-image: url("img/doctors-app-desk.png");
     height: 448px;
   }
 
