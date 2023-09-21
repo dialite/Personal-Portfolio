@@ -306,7 +306,7 @@ button:active {
 }
 
 .frame-case-c {
-  background-image: url("img/sage1.png");
+  background-image: url("img/dashboard1.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -903,14 +903,14 @@ li.ext-item {
 }
 
 .desktop-image-1 {
-  background-image: url("img/doctors-app-mobile-1.png");
+  background-image: url("img/sage1.png");
   height: 300px;
 }
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
   .desktop-image-1 {
-    background-image: url("img/doctors-app-mobile-1.png");
+    background-image: url("img/sage1.png");
   }
 
   .grid-item {
@@ -1141,7 +1141,7 @@ li.ext-item {
   }
 
   .desktop-image-1 {
-    background-image: url("img/doctors-app-desk.png");
+    background-image: url("img/sage1.png");
     height: 448px;
   }
 
@@ -1151,7 +1151,7 @@ li.ext-item {
   }
 
   .desktop-image-3 {
-    background-image: url("img/sage1.png");
+    background-image: url("img/dashboard1.png");
     height: 448px;
   }
 
