@@ -21,7 +21,7 @@ const projects = [
     h2TitleClass: ["content"],
     name: "Sage: SAAS AI Platform",
     highlights: ["OPEN & REPLICATE AI", "Next.js 13", "2023"],
-    stacks: ["Next.js", "Tailwind", "Prisma-DB"],
+    stacks: ["Next.js", "Tailwind", "PrismaDB"],
     tagline: ["GPT-4 AI", "Next.js Dev", "2023"],
     p: "Experience the future with an AI SaaS platform featuring five powerful AI tools. Seamlessly navigate and enjoy a user-centric design. Effortless integration for smooth billing. Our platform empowers your journey. Embrace the AI-driven era of 2023.",
     description:
