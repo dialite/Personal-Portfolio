@@ -312,8 +312,22 @@ button:active {
   background-size: 100% 100%;
 }
 
+.frame-case-ca {
+  background-image: url("img/lsc1a.PNG");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .frame-case-d {
   background-image: url("img/doctor-a.png");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.frame-case-da {
+  background-image: url("img/figsign2.png");
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1156,8 +1170,18 @@ li.ext-item {
     height: 448px;
   }
 
+  .desktop-image-3a {
+    background-image: url("img/lsc1.png");
+    height: 448px;
+  }
+
   .desktop-image-4 {
     background-image: url("img/doctor-a.png");
+    height: 448px;
+  }
+
+  .desktop-image-4a {
+    background-image: url("img/figsign2.png");
     height: 448px;
   }
 
