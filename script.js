@@ -11,10 +11,6 @@ const docBody = document.querySelector("body");
 const overlay = document.querySelector(".pop-bg");
 const cards = document.querySelector(".work");
 
-// Show buttons selectors
-const showMoreBtn = document.getElementById("showMoreBtn");
-const showLessBtn = document.getElementById("showLessBtn");
-
 //  Work projects
 const projects = [
   {
@@ -34,7 +30,7 @@ const projects = [
     featuredImage: "img/sage1.png",
     liFormat: ["flex", "tool-content"],
     technologies: ["Stripe", "Crisp", "PlanetScale"],
-    live: "https://saas-ai-platform-2qqyp5ra0-dialite.vercel.app/",
+    live: "https://saas-ai-platform-eight.vercel.app/",
     source: "https://github.com/dialite/Saas__AI_Platform.git",
   },
 
@@ -87,7 +83,7 @@ const projects = [
     articleClassList: ["desktop-content", "column-one"],
     h2TitleClass: ["content"],
     name: "RCCG Living Seed Church, Abuja",
-    highlights: ["API", "Calendly", "2025"],
+    highlights: ["API", "Calendly", "Framer-Motion"],
     stacks: ["TypeScript", "Tailwind CSS", "Next.JS"],
     tagline: ["Typewriter-effect", "Radix UI", "Lucide-React"],
     p: "Modern, responsive website for RCCG Living Seed Church, Abuja — developed using Next.js, Tailwind CSS, and TypeScript to deliver speed, scalability, and a seamless user experience.",
@@ -107,7 +103,7 @@ const projects = [
     articleClassList: ["desktop-content", "column-two"],
     h2TitleClass: ["content"],
     name: "RCCG Living Seed Church, Abuja",
-    highlights: ["MERN", "Material-UI", "2025"],
+    highlights: ["API", "Calendly", "Framer-Motion"],
     stacks: ["TypeScript", "Tailwind CSS", "Next.JS"],
     tagline: ["Typewriter-effect", "Radix UI", "Lucide-React"],
     p: "Modern, responsive website for RCCG Living Seed Church, Abuja — developed using Next.js, Tailwind CSS, and TypeScript to deliver speed, scalability, and a seamless user experience.",
